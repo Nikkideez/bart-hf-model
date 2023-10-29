@@ -55,7 +55,7 @@ def are_formulas_equal(preds, labels):
     return results
 
 # Computing metrics
-def compute_metrics(eval_preds):
+def compute_metrics(eval_preds, tokenizer):
     preds, labels = eval_preds
     if isinstance(preds, tuple):
         preds = preds[0]

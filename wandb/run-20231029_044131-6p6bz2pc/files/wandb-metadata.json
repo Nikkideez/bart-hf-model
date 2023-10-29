@@ -1,0 +1,128 @@
+{
+    "os": "Linux-6.5.8-zen1-1-zen-x86_64-with-glibc2.31",
+    "python": "3.9.18",
+    "heartbeatAt": "2023-10-29T04:41:33.492542",
+    "startedAt": "2023-10-29T04:41:31.565855",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/nikx/Documents/Projects/capstone/bart/model/train-model.py",
+    "codePathLocal": "train-model.py",
+    "codePath": "train-model.py",
+    "git": {
+        "remote": "git@github.com:Nikkideez/bart-hf-model.git",
+        "commit": null
+    },
+    "email": "13769031@student.uts.edu.au",
+    "root": "/home/nikx/Documents/Projects/capstone/bart/model",
+    "host": "5828b6da763c",
+    "username": "root",
+    "executable": "/home/nikx/capstone/bart-env/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3.6710625000000006,
+        "min": 2200.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4.203,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 4.226,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 4.224,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 4.214,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.37,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.383,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.2,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 4.163,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 4.216,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 4.211,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.367,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.124,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.6,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3.716,
+            "min": 2200.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 461.2607421875,
+            "used": 157.85426330566406
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2060 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060 SUPER",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 31.262939453125
+    }
+}

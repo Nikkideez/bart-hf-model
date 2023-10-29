@@ -13,6 +13,7 @@ epochs=int(input("Enter the number of epochs to train: "))
 dataset_format="csv"
 dataset_path="/home/nikx/Downloads/CECW-en-ltl-dataset(combined).csv"
 checkpoint = "facebook/bart-large"
+checkpoint = "facebook/bart-base"
 seed=42
 
 """ #### Log into WANDB """
@@ -40,8 +41,8 @@ training_args = Seq2SeqTrainingArguments(
     output_dir=output_dir,
     evaluation_strategy="epoch",
     learning_rate=0.00001624749612285061,
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=2,
+    per_device_train_batch_size=32,
+    per_device_eval_batch_size=32,
     weight_decay=0.4,
     save_total_limit=3,
     num_train_epochs=epochs,
@@ -59,7 +60,7 @@ trainer = Seq2SeqTrainer(
     eval_dataset=tokenized_dataset["valid"],
     tokenizer=tokenizer,
     data_collator=data_collator,
-    compute_metrics=compute_metrics,
+    compute_metrics=lambda eval_preds: compute_metrics(eval_preds, tokenizer),
     callbacks=[DefaultFlowCallback,CSVLoggerCallback(output_dir)]
 )
 
