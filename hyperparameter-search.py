@@ -9,10 +9,10 @@ from metrics import *
 """ #### Set variables """
 
 load_dotenv()
-output_dir="/home/nikx/Documents/Projects/capstone/bart/model"
-epochs=int(input("Enter the number of epochs to train: "))
+output_dir="/data/ndeo/bart/hypersearch/"
+#epochs=int(input("Enter the number of epochs to train: "))
 dataset_format="csv"
-dataset_path="/home/nikx/Downloads/CECW-en-ltl-dataset(combined).csv"
+dataset_path="./CECW-en-ltl-dataset(combined).csv"
 # checkpoint = "facebook/bart-large"
 checkpoint = "facebook/bart-base"
 seed=42
@@ -43,7 +43,7 @@ print(model.config)
 sweep_config = {
     'method': search_method,
     'metric': {
-       'name': 'val_loss',
+       'name': 'eval_loss',
        'goal': 'maximize'
     }
 }
@@ -52,7 +52,7 @@ sweep_config = {
 # hyperparameter range
 parameters_dict = {
     'epochs': {
-        'value': 10
+        'value': 25
         },
     'batch_size': {
         'values': [8, 16, 32, 64]
@@ -64,6 +64,9 @@ parameters_dict = {
     },
     'weight_decay': {
         'values': [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+    },
+    'gradient_accumulation_steps': {
+        'values': [1, 2, 4]
     },
 }
 
@@ -91,7 +94,7 @@ def train(config=None):
         output_dir=output_dir,
         learning_rate=config.learning_rate,
         per_device_train_batch_size=config.batch_size,
-        per_device_eval_batch_size=32,
+        per_device_eval_batch_size=16,
         weight_decay=config.weight_decay,
         save_strategy='epoch',
         evaluation_strategy='epoch',
@@ -99,6 +102,7 @@ def train(config=None):
         num_train_epochs=config.epochs,
         predict_with_generate=True,
         load_best_model_at_end=True,
+        gradient_accumulation_steps=config.gradient_accumulation_steps,
         fp16=True,
         push_to_hub=False,
         logging_steps=1,
@@ -106,7 +110,8 @@ def train(config=None):
     )
     # define training loop
     trainer = Seq2SeqTrainer(
-        model=model,
+        #model=model,
+        model_init=model_init,
         args=training_args,
         train_dataset=tokenized_dataset["train"],
         eval_dataset=tokenized_dataset["valid"],
