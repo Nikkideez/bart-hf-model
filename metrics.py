@@ -116,3 +116,17 @@ class CSVLoggerCallback(TrainerCallback):
                 csv.writer(file).writerow([state.epoch] + [self.current_epoch_data.get(key, "") for key in self.CSV_HEADER[1:]])
             self.current_epoch_data = {}
  
+def write_test_metrics_to_csv(metrics, output_dir):
+    # Define the CSV header and metrics keys
+    CSV_HEADER = ["Loss", "Bleu", "Exact Match", "Spot Accuracy", "Gen Len", "Runtime", "Samples Per Second", "Steps Per Second"]
+    METRICS_KEYS = ["test_loss", "test_bleu", "test_exact_match", "test_spot_acc", "test_gen_len", "test_runtime", "test_samples_per_second", "test_steps_per_second"]
+
+    # Create a filename with the current time
+    formatted_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    filepath = os.path.join(output_dir, f"test_logs_{formatted_time}.csv")
+
+    # Write the header and metrics to the CSV
+    with open(filepath, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(CSV_HEADER)
+        writer.writerow([metrics.get(key, "") for key in METRICS_KEYS])

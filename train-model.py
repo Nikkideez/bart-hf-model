@@ -12,7 +12,7 @@ output_dir="/home/nikx/Documents/Projects/capstone/bart/model"
 epochs=int(input("Enter the number of epochs to train: "))
 dataset_format="csv"
 dataset_path="/home/nikx/Downloads/CECW-en-ltl-dataset(combined).csv"
-checkpoint = "facebook/bart-large"
+# checkpoint = "facebook/bart-large"
 checkpoint = "facebook/bart-base"
 seed=42
 
@@ -31,7 +31,6 @@ tokenized_dataset, data_collator, tokenizer = preprocess_data(dataset, checkpoin
 
 model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, dropout=0.25)
 
-
 print(model.config)
 
 
@@ -46,6 +45,7 @@ training_args = Seq2SeqTrainingArguments(
     weight_decay=0.4,
     save_total_limit=3,
     num_train_epochs=epochs,
+    load_best_model_at_end=True,
     predict_with_generate=True,
     fp16=True,
     push_to_hub=False,
@@ -66,6 +66,7 @@ trainer = Seq2SeqTrainer(
 
 trainer.train()
 
-# Predit test dataset
+""" # Predict test dataset """
 test_predictions = trainer.predict(tokenized_dataset["test"])
-print(test_predictions)
+print(test_predictions.metrics)
+write_test_metrics_to_csv(test_predictions.metrics, output_dir)
