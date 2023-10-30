@@ -2,7 +2,7 @@
 
 import wandb
 from dotenv import load_dotenv
-from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer, DefaultFlowCallback
+from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer, DefaultFlowCallback, EarlyStoppingCallback
 from process_data import *
 from metrics import *
 
@@ -13,8 +13,8 @@ output_dir="/data/ndeo/bart/hypersearch/"
 #epochs=int(input("Enter the number of epochs to train: "))
 dataset_format="csv"
 dataset_path="./CECW-en-ltl-dataset(combined).csv"
-# checkpoint = "facebook/bart-large"
-checkpoint = "facebook/bart-base"
+checkpoint = "facebook/bart-large"
+#checkpoint = "facebook/bart-base"
 seed=42
 projectName = 'nlp-ltl-capstone'
 search_method = "bayes" 
@@ -32,7 +32,7 @@ tokenized_dataset, data_collator, tokenizer = preprocess_data(dataset, checkpoin
 
 """ ## Model """
 
-model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, dropout=0.25)
+model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, dropout=0.20)
 
 print(model.config)
 
@@ -43,7 +43,7 @@ print(model.config)
 sweep_config = {
     'method': search_method,
     'metric': {
-       'name': 'eval_loss',
+       'name': 'eval/loss',
        'goal': 'maximize'
     }
 }
@@ -59,14 +59,14 @@ parameters_dict = {
         },
     'learning_rate': {
         'distribution': 'log_uniform_values',
-        'min': 1e-5,
-        'max': 1e-3
+        'min': 2e-5,
+        'max': 6e-4
     },
     'weight_decay': {
-        'values': [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+        'values': [0.3, 0.4, 0.5, 0.6]
     },
     'gradient_accumulation_steps': {
-        'values': [1, 2, 4]
+        'values': [1, 2, 4, 6]
     },
 }
 
@@ -102,6 +102,7 @@ def train(config=None):
         num_train_epochs=config.epochs,
         predict_with_generate=True,
         load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
         gradient_accumulation_steps=config.gradient_accumulation_steps,
         fp16=True,
         push_to_hub=False,
@@ -118,7 +119,7 @@ def train(config=None):
         tokenizer=tokenizer,
         data_collator=data_collator,
         compute_metrics=lambda eval_preds: compute_metrics(eval_preds, tokenizer),
-        callbacks=[DefaultFlowCallback,CSVLoggerCallback(output_dir)]
+        callbacks=[DefaultFlowCallback,CSVLoggerCallback(output_dir), EarlyStoppingCallback(early_stopping_patience=5)]
     )
 
     # start training loop
