@@ -9,9 +9,9 @@ from metrics import *
 """ #### Set variables """
 
 load_dotenv()
-current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 output_dir = f"/data/ndeo/bart/hypersearch/run_{current_time}/"
-output_dir="/data/ndeo/bart/hypersearch/"
+#output_dir="/data/ndeo/bart/hypersearch/"
 #epochs=int(input("Enter the number of epochs to train: "))
 dataset_format="csv"
 dataset_path="./CECW-en-ltl-dataset(combined).csv"
@@ -20,6 +20,11 @@ checkpoint = "facebook/bart-large"
 seed=42
 projectName = 'nlp-ltl-capstone'
 search_method = "bayes" 
+
+""" #### Create the output dir if it does not exist """
+
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
 """ #### Log into WANDB """
 # Note: Environment variables are loaded from .env through load_dotenv()
@@ -45,7 +50,7 @@ print(model.config)
 sweep_config = {
     'method': search_method,
     'metric': {
-       'name': 'eval/loss',
+       'name': 'eval/spot_acc',
        'goal': 'maximize'
     }
 }
@@ -104,9 +109,9 @@ def train(config=None):
         num_train_epochs=config.epochs,
         predict_with_generate=True,
         load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
+        metric_for_best_model="eval_spot_acc",
         gradient_accumulation_steps=config.gradient_accumulation_steps,
-        warmup_ratio=0.05,
+        warmup_ratio=0.1,
         fp16=True,
         push_to_hub=False,
         logging_steps=1,

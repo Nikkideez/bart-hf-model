@@ -1,0 +1,115 @@
+You are adding a <class 'transformers.trainer_callback.DefaultFlowCallback'> to the callbacks of this Trainer, but there is already one. The currentlist of callbacks is
+:DefaultFlowCallback
+WandbCallback
+wandb: WARNING Config item 'gradient_accumulation_steps' was locked by 'sweep' (ignored update).
+wandb: WARNING Config item 'learning_rate' was locked by 'sweep' (ignored update).
+wandb: WARNING Config item 'weight_decay' was locked by 'sweep' (ignored update).
+  0%|          | 0/7850 [00:00<?, ?it/s]You're using a BartTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2%|▏         | 155/7850 [00:42<30:11,  4.25it/s]
+  2%|▏         | 157/7850 [00:42<30:25,  4.21it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+ 91%|█████████ | 62/68 [00:24<00:02,  2.30it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  4%|▍         | 304/7850 [02:04<29:52,  4.21it/s]
+
+  4%|▍         | 314/7850 [02:06<30:13,  4.16it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 94%|█████████▍| 64/68 [00:27<00:01,  2.29it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  6%|▌         | 464/7850 [03:20<29:29,  4.17it/s]
+
+  6%|▌         | 471/7850 [03:22<29:22,  4.19it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████▌| 65/68 [00:25<00:01,  2.60it/s]
+
+
+

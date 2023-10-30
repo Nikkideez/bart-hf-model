@@ -1,0 +1,54 @@
+wandb_version: 1
+
+batch_size:
+  desc: null
+  value: 16
+epochs:
+  desc: null
+  value: 50
+gradient_accumulation_steps:
+  desc: null
+  value: 6
+learning_rate:
+  desc: null
+  value: 2.6604542577380063e-05
+weight_decay:
+  desc: null
+  value: 0.3
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.13
+    cli_version: 0.15.12
+    framework: huggingface
+    huggingface_version: 4.33.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1698665529.302219
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 51
+      - 55
+      - 71
+      - 100
+      2:
+      - 1
+      - 11
+      - 49
+      - 51
+      - 55
+      - 71
+      - 100
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.10.13
+      5: 0.15.12
+      6: 4.33.1
+      8:
+      - 5
+      13: linux-x86_64
