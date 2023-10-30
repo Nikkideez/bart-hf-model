@@ -1,0 +1,1107 @@
+You are adding a <class 'transformers.trainer_callback.DefaultFlowCallback'> to the callbacks of this Trainer, but there is already one. The currentlist of callbacks is
+:DefaultFlowCallback
+WandbCallback
+wandb: WARNING Config item 'gradient_accumulation_steps' was locked by 'sweep' (ignored update).
+wandb: WARNING Config item 'learning_rate' was locked by 'sweep' (ignored update).
+wandb: WARNING Config item 'weight_decay' was locked by 'sweep' (ignored update).
+
+
+
+
+
+
+
+
+
+
+
+  2%|▏         | 39/1950 [00:23<20:10,  1.58it/s]
+  3%|▎         | 2/68 [00:00<00:18,  3.66it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▊| 67/68 [00:36<00:00,  1.78it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  4%|▍         | 79/1950 [02:16<17:40,  1.76it/s]
+{'loss': 0.2348, 'learning_rate': 4.8798455912927713e-05, 'epoch': 2.0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:41<00:00,  1.75it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+  6%|▌         | 116/1950 [04:20<18:56,  1.61it/s]
+  6%|▌         | 118/1950 [04:21<19:28,  1.57it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:38<00:00,  1.96it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  8%|▊         | 157/1950 [08:16<19:00,  1.57it/s]
+  8%|▊         | 158/1950 [08:17<18:01,  1.66it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████▋| 66/68 [00:46<00:01,  1.61it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 10%|█         | 196/1950 [10:52<17:17,  1.69it/s]
+ 10%|█         | 197/1950 [10:53<18:05,  1.61it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▊| 67/68 [00:37<00:00,  1.80it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 12%|█▏        | 235/1950 [12:19<17:24,  1.64it/s]
+ 12%|█▏        | 237/1950 [12:20<16:39,  1.71it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▊| 67/68 [00:41<00:00,  1.60it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 14%|█▍        | 276/1950 [13:51<16:40,  1.67it/s]
+{'loss': 0.098, 'learning_rate': 5.858819926467334e-05, 'epoch': 6.99}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:41<00:00,  1.49it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 16%|█▌        | 313/1950 [15:28<17:05,  1.60it/s]
+
+ 16%|█▌        | 316/1950 [15:30<16:39,  1.63it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:54<00:00,  1.83it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 18%|█▊        | 355/1950 [18:53<16:27,  1.62it/s]
+{'loss': 0.1087, 'learning_rate': 5.583151806043915e-05, 'epoch': 8.99}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▊| 67/68 [00:39<00:00,  1.76it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 20%|██        | 395/1950 [20:39<15:45,  1.64it/s]
+{'loss': 0.0909, 'learning_rate': 5.443573010892817e-05, 'epoch': 10.0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████▋| 66/68 [00:37<00:01,  1.79it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+ 22%|██▏       | 434/1950 [22:53<15:34,  1.62it/s]
+  0%|          | 0/68 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:41<00:00,  1.81it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 24%|██▍       | 473/1950 [24:26<15:58,  1.54it/s]
+ 24%|██▍       | 474/1950 [24:26<15:05,  1.63it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████▋| 66/68 [00:40<00:01,  1.62it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+ 26%|██▋       | 512/1950 [27:04<15:34,  1.54it/s]
+ 26%|██▋       | 513/1950 [27:05<14:59,  1.60it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▊| 67/68 [00:41<00:00,  1.62it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 28%|██▊       | 553/1950 [28:52<13:35,  1.71it/s]
+  0%|          | 0/68 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████▋| 66/68 [00:39<00:01,  1.64it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+ 30%|███       | 591/1950 [30:18<14:43,  1.54it/s]
+ 30%|███       | 592/1950 [30:19<14:19,  1.58it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:44<00:00,  1.38it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 32%|███▏      | 632/1950 [33:18<13:30,  1.63it/s]
+{'loss': 0.0733, 'learning_rate': 4.6165686496225625e-05, 'epoch': 16.0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:40<00:00,  1.78it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 34%|███▍      | 670/1950 [36:58<13:05,  1.63it/s]
+ 34%|███▍      | 671/1950 [36:58<13:52,  1.54it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:38<00:00,  1.90it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 36%|███▋      | 708/1950 [39:46<13:22,  1.55it/s]
+
+ 36%|███▋      | 711/1950 [39:48<12:33,  1.64it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████▋| 66/68 [00:37<00:01,  1.78it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 38%|███▊      | 748/1950 [41:42<12:33,  1.59it/s]
+ 38%|███▊      | 750/1950 [41:44<12:42,  1.57it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:39<00:00,  1.85it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 40%|████      | 789/1950 [43:10<12:32,  1.54it/s]
+ 41%|████      | 790/1950 [43:10<12:13,  1.58it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████▋| 66/68 [00:45<00:01,  1.60it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 42%|████▏     | 828/1950 [44:40<12:05,  1.55it/s]
+ 43%|████▎     | 829/1950 [44:41<11:53,  1.57it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 68/68 [00:41<00:00,  1.83it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 45%|████▍     | 868/1950 [46:06<10:59,  1.64it/s]
+ 45%|████▍     | 869/1950 [46:07<10:40,  1.69it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████▋| 66/68 [00:37<00:01,  1.80it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 46%|████▋     | 906/1950 [47:52<11:11,  1.55it/s]
+ 47%|████▋     | 908/1950 [47:54<10:47,  1.61it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97%|█████████▋| 66/68 [00:39<00:01,  1.49it/s]
+
+ 47%|████▋     | 908/1950 [48:35<10:47,  1.61itTraceback (most recent call last):
+  File "hyperparameter-search.py", line 127, in train
+    trainer.train()
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/transformers/trainer.py", line 1553, in train
+    return inner_training_loop(
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/transformers/trainer.py", line 1970, in _inner_training_loop
+    self._load_best_model()
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/transformers/trainer.py", line 2192, in _load_best_model
+    load_result = model.load_state_dict(state_dict, False)
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1604, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for BartForConditionalGeneration:
+	size mismatch for model.shared.weight: copying a param with shape torch.Size([50265, 768]) from checkpoint, the shape in current model is torch.Size([50265, 1024]).
+	size mismatch for model.encoder.embed_tokens.weight: copying a param with shape torch.Size([50265, 768]) from checkpoint, the shape in current model is torch.Size([50265, 1024]).
+	size mismatch for model.encoder.embed_positions.weight: copying a param with shape torch.Size([1026, 768]) from checkpoint, the shape in current model is torch.Size([1026, 1024]).
+	size mismatch for model.encoder.layers.0.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.0.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.0.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.0.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.0.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.0.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.0.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.0.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.0.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.0.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.0.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.encoder.layers.0.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.encoder.layers.0.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.encoder.layers.0.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.0.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.0.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.1.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.1.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.1.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.1.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.1.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.1.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.1.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.1.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.1.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.1.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.1.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.encoder.layers.1.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.encoder.layers.1.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.encoder.layers.1.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.1.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.1.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.2.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.2.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.2.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.2.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.2.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.2.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.2.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.2.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.2.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.2.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.2.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.encoder.layers.2.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.encoder.layers.2.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.encoder.layers.2.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.2.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.2.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.3.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.3.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.3.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.3.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.3.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.3.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.3.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.3.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.3.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.3.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.3.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.encoder.layers.3.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.encoder.layers.3.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.encoder.layers.3.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.3.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.3.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.4.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.4.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.4.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.4.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.4.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.4.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.4.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.4.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.4.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.4.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.4.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.encoder.layers.4.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.encoder.layers.4.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.encoder.layers.4.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.4.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.4.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.5.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.5.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.5.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.5.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.5.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.5.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.5.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.encoder.layers.5.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.5.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.5.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.5.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.encoder.layers.5.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.encoder.layers.5.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.encoder.layers.5.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.5.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layers.5.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layernorm_embedding.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.encoder.layernorm_embedding.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.embed_tokens.weight: copying a param with shape torch.Size([50265, 768]) from checkpoint, the shape in current model is torch.Size([50265, 1024]).
+	size mismatch for model.decoder.embed_positions.weight: copying a param with shape torch.Size([1026, 768]) from checkpoint, the shape in current model is torch.Size([1026, 1024]).
+	size mismatch for model.decoder.layers.0.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.0.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.0.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.0.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.0.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.encoder_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.decoder.layers.0.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.decoder.layers.0.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.decoder.layers.0.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.0.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.1.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.1.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.1.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.1.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.encoder_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.decoder.layers.1.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.decoder.layers.1.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.decoder.layers.1.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.1.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.2.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.2.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.2.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.2.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.encoder_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.decoder.layers.2.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.decoder.layers.2.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.decoder.layers.2.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.2.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.3.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.3.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.3.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.3.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.encoder_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.decoder.layers.3.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.decoder.layers.3.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.decoder.layers.3.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.3.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.4.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.4.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.4.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.4.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.encoder_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.decoder.layers.4.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.decoder.layers.4.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.decoder.layers.4.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.4.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.self_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.5.self_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.self_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.5.self_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.self_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.5.self_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.self_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.5.self_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.self_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.self_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn.k_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn.k_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn.v_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn.v_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn.q_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn.q_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn.out_proj.weight: copying a param with shape torch.Size([768, 768]) from checkpoint, the shape in current model is torch.Size([1024, 1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn.out_proj.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.encoder_attn_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.fc1.weight: copying a param with shape torch.Size([3072, 768]) from checkpoint, the shape in current model is torch.Size([4096, 1024]).
+	size mismatch for model.decoder.layers.5.fc1.bias: copying a param with shape torch.Size([3072]) from checkpoint, the shape in current model is torch.Size([4096]).
+	size mismatch for model.decoder.layers.5.fc2.weight: copying a param with shape torch.Size([768, 3072]) from checkpoint, the shape in current model is torch.Size([1024, 4096]).
+	size mismatch for model.decoder.layers.5.fc2.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.final_layer_norm.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layers.5.final_layer_norm.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layernorm_embedding.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for model.decoder.layernorm_embedding.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([1024]).
+	size mismatch for lm_head.weight: copying a param with shape torch.Size([50265, 768]) from checkpoint, the shape in current model is torch.Size([50265, 1024]).

@@ -1,0 +1,27 @@
+You are adding a <class 'transformers.trainer_callback.DefaultFlowCallback'> to the callbacks of this Trainer, but there is already one. The currentlist of callbacks is
+:DefaultFlowCallback
+WandbCallback
+wandb: WARNING Config item 'gradient_accumulation_steps' was locked by 'sweep' (ignored update).
+wandb: WARNING Config item 'learning_rate' was locked by 'sweep' (ignored update).
+wandb: WARNING Config item 'weight_decay' was locked by 'sweep' (ignored update).
+  File "hyperparameter-search.py", line 127, in train
+    trainer.train()
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/transformers/trainer.py", line 1553, in train
+    return inner_training_loop(
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/transformers/trainer.py", line 1835, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/transformers/trainer.py", line 2679, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/transformers/trainer.py", line 2704, in compute_loss
+    outputs = model(**inputs)
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/accelerate/utils/operations.py", line 632, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/accelerate/utils/operations.py", line 620, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/torch/amp/autocast_mode.py", line 12, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/transformers/models/bart/modeling_bart.py", line 1407, in forward
+    lm_logits = lm_logits + self.final_logits_bias.to(lm_logits.device)
+RuntimeError: CUDA out of memory. Tried to allocate 540.00 MiB (GPU 0; 15.74 GiB total capacity; 14.26 GiB already allocated; 26.00 MiB free; 14.81 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

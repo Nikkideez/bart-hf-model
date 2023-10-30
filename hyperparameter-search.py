@@ -9,6 +9,8 @@ from metrics import *
 """ #### Set variables """
 
 load_dotenv()
+current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+output_dir = f"/data/ndeo/bart/hypersearch/run_{current_time}/"
 output_dir="/data/ndeo/bart/hypersearch/"
 #epochs=int(input("Enter the number of epochs to train: "))
 dataset_format="csv"
@@ -52,7 +54,7 @@ sweep_config = {
 # hyperparameter range
 parameters_dict = {
     'epochs': {
-        'value': 25
+        'value': 50
         },
     'batch_size': {
         'values': [8, 16, 32, 64]
@@ -104,6 +106,7 @@ def train(config=None):
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
         gradient_accumulation_steps=config.gradient_accumulation_steps,
+        warmup_ratio=0.05,
         fp16=True,
         push_to_hub=False,
         logging_steps=1,
@@ -119,7 +122,7 @@ def train(config=None):
         tokenizer=tokenizer,
         data_collator=data_collator,
         compute_metrics=lambda eval_preds: compute_metrics(eval_preds, tokenizer),
-        callbacks=[DefaultFlowCallback,CSVLoggerCallback(output_dir), EarlyStoppingCallback(early_stopping_patience=5)]
+        callbacks=[DefaultFlowCallback,CSVLoggerCallback(output_dir), EarlyStoppingCallback(early_stopping_patience=7)]
     )
 
     # start training loop

@@ -1,0 +1,187 @@
+2023-10-30 16:03:43,691 INFO    StreamThr :3832121 [internal.py:wandb_internal():86] W&B internal server running at pid: 3832121, started at: 2023-10-30 16:03:43.561867
+2023-10-30 16:03:43,692 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: status
+2023-10-30 16:03:43,693 INFO    WriterThread:3832121 [datastore.py:open_for_write():85] open: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/run-b0tf6i47.wandb
+2023-10-30 16:03:43,880 DEBUG   SenderThread:3832121 [sender.py:send():380] send: header
+2023-10-30 16:03:43,880 DEBUG   SenderThread:3832121 [sender.py:send():380] send: run
+2023-10-30 16:03:44,564 INFO    SenderThread:3832121 [dir_watcher.py:__init__():211] watching files in: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files
+2023-10-30 16:03:44,565 INFO    SenderThread:3832121 [sender.py:_start_run_threads():1122] run started: b0tf6i47 with start time 1698642223.56116
+2023-10-30 16:03:44,571 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: check_version
+2023-10-30 16:03:44,571 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: check_version
+2023-10-30 16:03:44,652 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: run_start
+2023-10-30 16:03:44,659 DEBUG   HandlerThread:3832121 [system_info.py:__init__():32] System info init
+2023-10-30 16:03:44,659 DEBUG   HandlerThread:3832121 [system_info.py:__init__():47] System info init done
+2023-10-30 16:03:44,659 INFO    HandlerThread:3832121 [system_monitor.py:start():194] Starting system monitor
+2023-10-30 16:03:44,659 INFO    SystemMonitor:3832121 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-30 16:03:44,659 INFO    HandlerThread:3832121 [system_monitor.py:probe():214] Collecting system info
+2023-10-30 16:03:44,659 INFO    SystemMonitor:3832121 [interfaces.py:start():190] Started cpu monitoring
+2023-10-30 16:03:44,660 INFO    SystemMonitor:3832121 [interfaces.py:start():190] Started disk monitoring
+2023-10-30 16:03:44,660 INFO    SystemMonitor:3832121 [interfaces.py:start():190] Started gpu monitoring
+2023-10-30 16:03:44,661 INFO    SystemMonitor:3832121 [interfaces.py:start():190] Started memory monitoring
+2023-10-30 16:03:44,661 INFO    SystemMonitor:3832121 [interfaces.py:start():190] Started network monitoring
+2023-10-30 16:03:44,668 DEBUG   HandlerThread:3832121 [system_info.py:probe():196] Probing system
+2023-10-30 16:03:44,675 DEBUG   HandlerThread:3832121 [system_info.py:_probe_git():181] Probing git
+2023-10-30 16:03:44,690 DEBUG   HandlerThread:3832121 [system_info.py:_probe_git():189] Probing git done
+2023-10-30 16:03:44,690 DEBUG   HandlerThread:3832121 [system_info.py:probe():244] Probing system done
+2023-10-30 16:03:44,690 DEBUG   HandlerThread:3832121 [system_monitor.py:probe():223] {'os': 'Linux-4.18.0-372.32.1.el8_6.x86_64-x86_64-with-glibc2.17', 'python': '3.8.18', 'heartbeatAt': '2023-10-30T05:03:44.668207', 'startedAt': '2023-10-30T05:03:41.890483', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/data/ndeo/bart/bart-hf-model/hyperparameter-search.py', 'codePathLocal': 'hyperparameter-search.py', 'codePath': 'hyperparameter-search.py', 'git': {'remote': 'git@github.com:Nikkideez/bart-hf-model.git', 'commit': '60e765a0b99eae1c01262743fc98ff70a3dbc660'}, 'email': None, 'root': '/data/ndeo/bart/bart-hf-model', 'host': 'mercury8.ihpc.uts.edu.au', 'username': 'ndeo', 'executable': '/home/ndeo/.conda/envs/capstone-rnn/bin/python', 'cpu_count': 26, 'cpu_count_logical': 26, 'cpu_freq': {'current': 2194.8430000000003, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}, {'current': 2194.843, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 0.015625, 'used': 1.1444091796875e-05}}, 'gpu': 'Quadro RTX 5000', 'gpu_count': 1, 'gpu_devices': [{'name': 'Quadro RTX 5000', 'memory_total': 17179869184}], 'memory': {'total': 86.51404571533203}}
+2023-10-30 16:03:44,690 INFO    HandlerThread:3832121 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-30 16:03:44,690 INFO    HandlerThread:3832121 [system_monitor.py:probe():227] Publishing system info
+2023-10-30 16:03:44,690 DEBUG   HandlerThread:3832121 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-30 16:03:44,727 DEBUG   HandlerThread:3832121 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-30 16:03:44,727 DEBUG   HandlerThread:3832121 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-30 16:03:44,732 ERROR   HandlerThread:3832121 [system_info.py:_save_conda():86] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/site-packages/wandb/sdk/internal/system/system_info.py", line 82, in _save_conda
+    subprocess.call(
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/ndeo/.conda/envs/capstone-rnn/lib/python3.8/subprocess.py", line 1720, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-10-30 16:03:44,733 DEBUG   HandlerThread:3832121 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-30 16:03:45,009 INFO    HandlerThread:3832121 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-30 16:03:45,018 DEBUG   SenderThread:3832121 [sender.py:send():380] send: files
+2023-10-30 16:03:45,018 INFO    SenderThread:3832121 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-30 16:03:45,024 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-30 16:03:45,024 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: stop_status
+2023-10-30 16:03:45,026 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-30 16:03:45,331 DEBUG   SenderThread:3832121 [sender.py:send():380] send: telemetry
+2023-10-30 16:03:45,566 INFO    Thread-12 :3832121 [dir_watcher.py:_on_file_created():271] file/dir created: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/wandb-metadata.json
+2023-10-30 16:03:45,566 INFO    Thread-12 :3832121 [dir_watcher.py:_on_file_created():271] file/dir created: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/requirements.txt
+2023-10-30 16:03:45,567 INFO    Thread-12 :3832121 [dir_watcher.py:_on_file_created():271] file/dir created: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/conda-environment.yaml
+2023-10-30 16:03:45,864 INFO    wandb-upload_0:3832121 [upload_job.py:push():131] Uploaded file /tmp/tmp5rzeviopwandb/6a3xxp89-wandb-metadata.json
+2023-10-30 16:03:49,332 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: status_report
+2023-10-30 16:03:51,444 DEBUG   SenderThread:3832121 [sender.py:send():380] send: telemetry
+2023-10-30 16:03:51,444 DEBUG   SenderThread:3832121 [sender.py:send():380] send: exit
+2023-10-30 16:03:51,444 INFO    SenderThread:3832121 [sender.py:send_exit():585] handling exit code: 1
+2023-10-30 16:03:51,444 INFO    SenderThread:3832121 [sender.py:send_exit():587] handling runtime: 6
+2023-10-30 16:03:51,617 INFO    SenderThread:3832121 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-30 16:03:51,618 INFO    Thread-12 :3832121 [dir_watcher.py:_on_file_created():271] file/dir created: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/output.log
+2023-10-30 16:03:51,618 INFO    SenderThread:3832121 [sender.py:send_exit():593] send defer
+2023-10-30 16:03:51,618 INFO    Thread-12 :3832121 [dir_watcher.py:_on_file_created():271] file/dir created: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/wandb-summary.json
+2023-10-30 16:03:51,618 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:51,618 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 0
+2023-10-30 16:03:51,619 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:51,619 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-30 16:03:51,619 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 1
+2023-10-30 16:03:51,619 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:51,619 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 1
+2023-10-30 16:03:51,619 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:51,619 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-30 16:03:51,619 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 2
+2023-10-30 16:03:51,619 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:51,619 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 2
+2023-10-30 16:03:51,619 INFO    HandlerThread:3832121 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-30 16:03:51,619 INFO    HandlerThread:3832121 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-30 16:03:51,620 INFO    HandlerThread:3832121 [interfaces.py:finish():202] Joined disk monitor
+2023-10-30 16:03:51,620 DEBUG   SystemMonitor:3832121 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-30 16:03:51,620 DEBUG   SystemMonitor:3832121 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-30 16:03:51,620 DEBUG   SystemMonitor:3832121 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-30 16:03:51,691 INFO    HandlerThread:3832121 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-30 16:03:51,692 INFO    HandlerThread:3832121 [interfaces.py:finish():202] Joined memory monitor
+2023-10-30 16:03:51,692 INFO    HandlerThread:3832121 [interfaces.py:finish():202] Joined network monitor
+2023-10-30 16:03:51,692 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:51,692 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-30 16:03:51,692 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 3
+2023-10-30 16:03:51,692 DEBUG   SenderThread:3832121 [sender.py:send():380] send: stats
+2023-10-30 16:03:51,693 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:51,693 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 3
+2023-10-30 16:03:51,693 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:51,693 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-30 16:03:51,693 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 4
+2023-10-30 16:03:51,693 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:51,693 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 4
+2023-10-30 16:03:51,693 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:51,693 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-30 16:03:51,693 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 5
+2023-10-30 16:03:51,694 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:51,694 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 5
+2023-10-30 16:03:51,694 DEBUG   SenderThread:3832121 [sender.py:send():380] send: summary
+2023-10-30 16:03:51,802 INFO    SenderThread:3832121 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-30 16:03:51,802 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:51,802 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-30 16:03:51,802 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 6
+2023-10-30 16:03:51,802 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:51,802 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 6
+2023-10-30 16:03:51,803 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:51,803 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-30 16:03:51,806 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: status_report
+2023-10-30 16:03:52,049 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 7
+2023-10-30 16:03:52,050 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:52,050 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 7
+2023-10-30 16:03:52,050 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:52,050 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-30 16:03:52,306 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-30 16:03:52,618 INFO    Thread-12 :3832121 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/wandb-summary.json
+2023-10-30 16:03:52,618 INFO    Thread-12 :3832121 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/config.yaml
+2023-10-30 16:03:53,638 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 8
+2023-10-30 16:03:53,638 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: poll_exit
+2023-10-30 16:03:53,638 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:53,638 INFO    Thread-12 :3832121 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/output.log
+2023-10-30 16:03:53,639 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 8
+2023-10-30 16:03:53,639 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:53,639 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-30 16:03:53,639 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 9
+2023-10-30 16:03:53,639 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:53,639 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 9
+2023-10-30 16:03:53,639 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:53,639 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-30 16:03:53,639 INFO    SenderThread:3832121 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-30 16:03:54,752 INFO    SenderThread:3832121 [dir_watcher.py:finish():388] scan: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files
+2023-10-30 16:03:54,763 INFO    SenderThread:3832121 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/conda-environment.yaml conda-environment.yaml
+2023-10-30 16:03:54,763 INFO    SenderThread:3832121 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/config.yaml config.yaml
+2023-10-30 16:03:54,763 INFO    SenderThread:3832121 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/wandb-metadata.json wandb-metadata.json
+2023-10-30 16:03:54,763 INFO    SenderThread:3832121 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/requirements.txt requirements.txt
+2023-10-30 16:03:54,765 INFO    SenderThread:3832121 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/output.log output.log
+2023-10-30 16:03:54,765 INFO    SenderThread:3832121 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/wandb-summary.json wandb-summary.json
+2023-10-30 16:03:54,765 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 10
+2023-10-30 16:03:54,768 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:54,770 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 10
+2023-10-30 16:03:54,800 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:54,800 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-30 16:03:54,800 INFO    SenderThread:3832121 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-30 16:03:55,623 INFO    wandb-upload_0:3832121 [upload_job.py:push():131] Uploaded file /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/config.yaml
+2023-10-30 16:03:56,115 INFO    wandb-upload_1:3832121 [upload_job.py:push():131] Uploaded file /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/requirements.txt
+2023-10-30 16:03:56,121 INFO    wandb-upload_2:3832121 [upload_job.py:push():131] Uploaded file /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/output.log
+2023-10-30 16:03:56,133 INFO    wandb-upload_3:3832121 [upload_job.py:push():131] Uploaded file /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/files/wandb-summary.json
+2023-10-30 16:03:56,333 INFO    Thread-11 :3832121 [sender.py:transition_state():613] send defer: 11
+2023-10-30 16:03:56,333 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:56,333 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 11
+2023-10-30 16:03:56,334 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:56,334 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-30 16:03:56,334 INFO    SenderThread:3832121 [file_pusher.py:join():181] waiting for file pusher
+2023-10-30 16:03:56,334 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 12
+2023-10-30 16:03:56,334 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:56,334 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 12
+2023-10-30 16:03:56,334 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:56,334 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-30 16:03:56,334 INFO    SenderThread:3832121 [file_stream.py:finish():595] file stream finish called
+2023-10-30 16:03:56,578 INFO    SenderThread:3832121 [file_stream.py:finish():599] file stream finish is done
+2023-10-30 16:03:56,578 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 13
+2023-10-30 16:03:56,578 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:56,578 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 13
+2023-10-30 16:03:56,579 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:56,579 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-30 16:03:56,579 INFO    SenderThread:3832121 [sender.py:transition_state():613] send defer: 14
+2023-10-30 16:03:56,579 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: defer
+2023-10-30 16:03:56,579 INFO    HandlerThread:3832121 [handler.py:handle_request_defer():172] handle defer: 14
+2023-10-30 16:03:56,579 DEBUG   SenderThread:3832121 [sender.py:send():380] send: final
+2023-10-30 16:03:56,579 DEBUG   SenderThread:3832121 [sender.py:send():380] send: footer
+2023-10-30 16:03:56,579 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: defer
+2023-10-30 16:03:56,579 INFO    SenderThread:3832121 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-30 16:03:56,580 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-30 16:03:56,580 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-30 16:03:56,580 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: poll_exit
+2023-10-30 16:03:56,581 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: server_info
+2023-10-30 16:03:56,581 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: get_summary
+2023-10-30 16:03:56,581 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: sampled_history
+2023-10-30 16:03:56,581 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: job_info
+2023-10-30 16:03:56,581 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: server_info
+2023-10-30 16:03:56,783 DEBUG   SenderThread:3832121 [sender.py:send_request():407] send_request: job_info
+2023-10-30 16:03:56,784 DEBUG   HandlerThread:3832121 [handler.py:handle_request():146] handle_request: shutdown
+2023-10-30 16:03:56,784 INFO    HandlerThread:3832121 [handler.py:finish():866] shutting down handler
+2023-10-30 16:03:57,581 INFO    WriterThread:3832121 [datastore.py:close():294] close: /data/ndeo/bart/bart-hf-model/wandb/run-20231030_160341-b0tf6i47/run-b0tf6i47.wandb
+2023-10-30 16:03:57,784 INFO    SenderThread:3832121 [sender.py:finish():1534] shutting down sender
+2023-10-30 16:03:57,784 INFO    SenderThread:3832121 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-30 16:03:57,784 INFO    SenderThread:3832121 [file_pusher.py:join():181] waiting for file pusher
