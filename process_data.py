@@ -32,18 +32,18 @@ def load_data(dataset_format, dataset_path, seed):
 def preprocess_data(dataset, checkpoint):
     """ #### Check for longest word in dataset to find max_length """
     """ ###### Note this part may not be necessary - dynamic padding would be a more effective solution """
-    # Assuming your 2D array is named 'data'
-    max_length = 0
+    ## assuming your 2d array is named 'data'
+    #max_length = 0
 
-    for column in dataset['train']['en']:
-        column_length = len(column)
-        if column_length > max_length:
-            max_length = column_length
+    #for column in dataset['train']['en']:
+    #    column_length = len(column)
+    #    if column_length > max_length:
+    #        max_length = column_length
 
-    print("Maximum length:", max_length)
+    #print("maximum length:", max_length)
 
 
-    """ #### Preprocess/Tokenize Data """
+    """ #### preprocess/Tokenize Data """
 
 
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
@@ -56,7 +56,7 @@ def preprocess_data(dataset, checkpoint):
     def preprocess_function(examples):
         inputs = [prefix + example for example in examples[source_lang]]
         targets = [example for example in examples[target_lang]]
-        model_inputs = tokenizer(inputs, text_target=targets, max_length=max_length, truncation=True)
+        model_inputs = tokenizer(inputs, text_target=targets, truncation=True)
         return model_inputs
 
 

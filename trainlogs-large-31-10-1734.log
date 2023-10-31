@@ -1,0 +1,27 @@
+wandb: Currently logged in as: nikkideez (nlp-ltl). Use `wandb login --relogin` to force relogin
+DatasetDict({
+    train: Dataset({
+        features: ['ltl', 'en'],
+        num_rows: 7185
+    })
+})
+DatasetDict({
+    train: Dataset({
+        features: ['ltl', 'en'],
+        num_rows: 5029
+    })
+    test: Dataset({
+        features: ['ltl', 'en'],
+        num_rows: 2156
+    })
+    valid: Dataset({
+        features: ['ltl', 'en'],
+        num_rows: 1078
+    })
+})
+Traceback (most recent call last):
+  File "/data/ndeo/bart/bart-hf-model/hyperparameter-search.py", line 38, in <module>
+    tokenized_dataset, data_collator, tokenizer = preprocess_data(dataset, checkpoint)
+  File "/data/ndeo/bart/bart-hf-model/process_data.py", line 49, in preprocess_data
+    tokenizer = autoTokenizer.from_pretrained(checkpoint)
+NameError: name 'autoTokenizer' is not defined

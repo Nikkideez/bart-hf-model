@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batch_size:
+  value: 64
+epochs:
+  value: 50
+gradient_accumulation_steps:
+  value: 6
+learning_rate:
+  value: 7.76325675498059e-05
+weight_decay:
+  value: 0.5
