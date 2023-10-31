@@ -1,4 +1,5 @@
 
+
 import wandb
 from dotenv import load_dotenv
 from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer, DefaultFlowCallback
@@ -6,17 +7,16 @@ from process_data import *
 from metrics import *
 from test_generator import *
 
+
 """ #### Set variables """
 
 load_dotenv()
 current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-# target_dir = "/data/ndeo/bart/hypersearch"
 target_dir = "/home/nikx/capstone/dump"
 output_dir = f"{target_dir}/run_{current_time}/"
 dataset_format="csv"
 dataset_path="./CECW-en-ltl-dataset(combined).csv"
-#checkpoint = "facebook/bart-large"
-checkpoint = "facebook/bart-base"
+checkpoint = "/home/nikx/capstone/dump/checkpoint-1500" # Replace this with some path to a trained checkpoint
 seed=42
 epochs=int(input("Enter the number of epochs to train: "))
 
@@ -30,12 +30,11 @@ if not os.path.exists(output_dir):
 # Just make sure its in the same directory
 wandb.login()
 
-""" #### Load and Preprocess Data """
+""" #### Load and Preprocess Data"""
 
 dataset = load_data(dataset_format, dataset_path, seed)
 
 tokenized_dataset, data_collator, tokenizer = preprocess_data(dataset, checkpoint)
-
 
 """ #### Generate Additional Test Data """
 
@@ -76,7 +75,6 @@ write_array_to_file(dataset["test"]["en"], f"{output_dir}/test-original-eng.txt"
 write_array_to_file(dataset["test"]["ltl"], f"{output_dir}/test-original-ltl.txt")
 tokenized_test, _,_ = preprocess_data(test_dataset, checkpoint)
 
-
 """ ## Model """
 
 model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, dropout=0.25)
@@ -95,7 +93,7 @@ training_args = Seq2SeqTrainingArguments(
     save_strategy="epoch",
     evaluation_strategy="epoch",
     logging_strategy="epoch",
-    num_train_epochs=epochs,
+    num_train_epochs=1,
     load_best_model_at_end=True,
     save_total_limit=3,
     metric_for_best_model="eval_spot_acc",
@@ -118,7 +116,7 @@ trainer = Seq2SeqTrainer(
     callbacks=[DefaultFlowCallback,CSVLoggerCallback(output_dir)]
 )
 
-trainer.train()
+# trainer.train()
 
 """ # Predict test dataset """
 # test_predictions = trainer.predict(tokenized_dataset["test"])

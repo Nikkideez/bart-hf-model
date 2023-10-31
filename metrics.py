@@ -9,6 +9,7 @@ import os
 import csv
 import datetime
 from transformers import TrainerCallback
+from test_generator import write_array_to_file
 
 """ #### Metrics """
 
@@ -122,11 +123,32 @@ def write_test_metrics_to_csv(metrics, output_dir):
     METRICS_KEYS = ["test_loss", "test_bleu", "test_exact_match", "test_spot_acc", "test_gen_len", "test_runtime", "test_samples_per_second", "test_steps_per_second"]
 
     # Create a filename with the current time
-    formatted_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    filepath = os.path.join(output_dir, f"test_logs_{formatted_time}.csv")
+    # formatted_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    filepath = os.path.join(output_dir, "test_logs.csv")
+
+    # Check if the CSV file already exists
+    file_exists = os.path.exists(filepath)
 
     # Write the header and metrics to the CSV
-    with open(filepath, 'w', newline='') as file:
+    mode = 'a' if file_exists else 'w'
+    with open(filepath, mode, newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(CSV_HEADER)
+        # Write the header only if the file didn't exist before
+        if not file_exists:
+            writer.writerow(CSV_HEADER)
         writer.writerow([metrics.get(key, "") for key in METRICS_KEYS])
+
+
+
+def evaluate_datadict(tokenized_datadict, trainer, output_dir, tokenizer):
+    predictions = {}
+
+    for key, dataset in tokenized_datadict.items():
+        print("This is the key!!: ", key)
+        predictions[key] = trainer.predict(dataset)
+        print(predictions[key].metrics)
+        # print(predictions[key].predictions)
+        decoded_preds = tokenizer.batch_decode(predictions[key].predictions, skip_special_tokens=True)
+        # print(decoded_preds)
+        write_array_to_file(decoded_preds, f"{output_dir}/test-{key}-pred.txt")
+        write_test_metrics_to_csv(predictions[key].metrics, output_dir)
