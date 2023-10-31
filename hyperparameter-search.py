@@ -66,8 +66,8 @@ parameters_dict = {
         },
     'learning_rate': {
         'distribution': 'log_uniform_values',
-        'min': 1e-5,
-        'max': 2e-4
+        'min': 8e-6,
+        'max': 1e-4
     },
     'weight_decay': {
         'values': [0.2, 0.3, 0.4, 0.5, 0.6]

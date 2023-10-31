@@ -2,19 +2,19 @@ wandb_version: 1
 
 batch_size:
   desc: null
-  value: 8
+  value: 16
 epochs:
   desc: null
   value: 50
 gradient_accumulation_steps:
   desc: null
-  value: 2
+  value: 1
 learning_rate:
   desc: null
-  value: 2.293317897013705e-05
+  value: 0.0001340232537313181
 weight_decay:
   desc: null
-  value: 0.3
+  value: 0.5
 _wandb:
   desc: null
   value:
@@ -24,7 +24,7 @@ _wandb:
     huggingface_version: 4.33.1
     is_jupyter_run: false
     is_kaggle_kernel: false
-    start_time: 1698734744.687647
+    start_time: 1698735700.753435
     t:
       1:
       - 1
@@ -43,7 +43,6 @@ _wandb:
       - 71
       - 100
       3:
-      - 2
       - 7
       - 23
       - 37
@@ -98,26 +97,6 @@ _wandb:
       6:
       - 1
     - 1: eval/steps_per_second
-      5: 1
-      6:
-      - 1
-    - 1: train/train_runtime
-      5: 1
-      6:
-      - 1
-    - 1: train/train_samples_per_second
-      5: 1
-      6:
-      - 1
-    - 1: train/train_steps_per_second
-      5: 1
-      6:
-      - 1
-    - 1: train/total_flos
-      5: 1
-      6:
-      - 1
-    - 1: train/train_loss
       5: 1
       6:
       - 1
@@ -388,7 +367,7 @@ normalize_before:
   value: false
 output_dir:
   desc: null
-  value: /data/ndeo/bart/hypersearch/run_2023-10-31_16-11-03/
+  value: /data/ndeo/bart/hypersearch/run_2023-10-31_17-43-01/
 overwrite_output_dir:
   desc: null
   value: false
@@ -409,7 +388,7 @@ prediction_loss_only:
   value: false
 per_device_train_batch_size:
   desc: null
-  value: 8
+  value: 16
 per_device_eval_batch_size:
   desc: null
   value: 16
@@ -463,7 +442,7 @@ log_on_each_node:
   value: true
 logging_dir:
   desc: null
-  value: /data/ndeo/bart/hypersearch/run_2023-10-31_16-11-03/runs/Oct31_17-45-48_mercury3.ihpc.uts.edu.au
+  value: /data/ndeo/bart/hypersearch/run_2023-10-31_17-43-01/runs/Oct31_18-01-44_mars10.ihpc.uts.edu.au
 logging_strategy:
   desc: null
   value: epoch
@@ -562,7 +541,7 @@ past_index:
   value: -1
 run_name:
   desc: null
-  value: /data/ndeo/bart/hypersearch/run_2023-10-31_16-11-03/
+  value: /data/ndeo/bart/hypersearch/run_2023-10-31_17-43-01/
 disable_tqdm:
   desc: null
   value: false

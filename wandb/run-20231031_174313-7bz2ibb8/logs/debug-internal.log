@@ -568,3 +568,666 @@
 2023-10-31 17:52:19,044 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
 2023-10-31 17:52:19,940 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
 2023-10-31 17:52:21,942 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:23,083 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:52:23,084 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:52:23,084 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:52:23,088 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:52:23,945 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:23,945 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:52:24,089 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:52:24,991 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:28,309 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:52:28,309 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:52:28,310 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:52:29,591 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:52:34,591 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:52:38,024 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:39,653 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:52:40,027 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:42,030 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:43,307 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:52:43,307 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:52:43,309 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:52:44,032 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:44,395 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:52:44,836 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:52:46,034 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:48,036 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:50,038 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:50,073 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:52:52,040 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:54,042 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:55,321 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:52:56,048 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:58,054 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:52:58,308 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:52:58,308 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:52:58,309 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:53:00,055 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:00,575 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:02,058 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:04,721 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:05,842 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:06,723 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:08,735 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:10,737 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:10,848 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:12,741 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:13,308 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:53:13,308 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:53:13,310 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:53:14,396 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:53:14,745 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:16,090 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:16,764 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:18,767 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:20,769 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:21,369 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:22,302 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:53:22,302 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:53:22,302 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:53:22,308 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:53:22,771 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:22,772 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:53:24,772 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:26,476 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:26,775 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:28,309 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:53:28,309 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:53:28,310 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:53:28,777 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:30,778 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:31,649 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:32,782 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:34,785 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:36,787 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:36,859 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:38,791 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:40,794 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:42,078 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:42,795 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:43,308 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:53:43,308 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:53:43,310 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:53:44,397 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:53:44,796 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:46,798 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:47,277 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:48,800 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:50,802 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:52,494 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:52,812 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:54,813 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:56,815 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:53:57,575 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:53:57,776 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:53:57,777 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:53:57,777 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:53:57,780 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:53:57,816 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:53:58,406 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:53:58,406 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:53:58,471 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:53:58,817 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:00,845 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:02,622 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:07,623 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:12,823 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:13,314 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:54:13,333 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:54:13,333 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:54:13,888 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:14,397 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:54:15,891 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:17,893 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:18,071 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:19,897 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:21,899 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:23,338 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:23,902 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:25,903 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:27,905 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:28,314 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:54:28,333 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:54:28,333 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:54:28,582 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:29,907 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:31,911 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:33,711 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:33,912 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:35,921 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:37,923 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:38,741 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:39,932 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:41,935 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:43,314 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:54:43,334 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:54:43,334 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:54:43,941 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:44,010 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:44,398 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:54:45,943 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:47,947 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:49,269 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:49,948 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:51,950 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:53,953 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:54,557 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:55,954 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:57,956 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:58,206 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:54:58,208 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:54:58,208 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:54:58,211 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:54:58,314 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:54:58,333 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:54:58,333 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:54:58,957 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:54:58,957 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:54:59,901 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:54:59,958 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:01,960 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:03,962 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:04,961 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:05,964 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:07,967 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:09,968 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:09,979 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:11,970 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:13,314 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:55:13,369 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:55:13,369 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:55:13,972 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:14,398 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:55:15,036 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:15,974 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:17,976 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:19,979 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:20,089 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:21,980 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:23,984 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:25,128 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:25,985 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:27,987 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:28,314 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:55:28,333 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:55:28,333 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:55:29,988 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:30,208 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:31,990 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:33,995 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:35,252 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:35,996 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:36,465 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:55:36,466 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:55:36,466 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:55:36,469 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:55:36,998 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:36,998 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:55:37,999 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:40,470 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:43,402 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:55:43,453 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:55:43,453 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:55:44,399 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:55:46,400 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:51,575 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:52,050 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:54,053 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:56,056 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:56,856 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:55:58,057 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:55:58,320 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:55:58,334 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:55:58,334 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:56:00,060 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:01,863 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:02,069 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:04,072 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:06,074 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:07,142 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:08,075 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:10,077 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:12,079 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:12,413 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:13,321 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:56:13,334 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:56:13,334 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:56:14,081 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:14,400 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:56:16,084 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:17,665 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:18,085 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:20,094 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:22,096 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:22,937 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:24,099 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:26,104 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:28,112 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:28,185 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:28,321 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:56:28,334 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:56:28,334 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:56:30,119 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:32,126 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:33,415 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:34,127 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:35,836 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:56:35,836 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:56:35,836 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:56:35,841 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:56:36,129 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:36,129 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:56:37,130 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:38,131 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:38,620 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:40,133 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:42,135 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:43,321 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:56:43,334 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:56:43,335 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:56:44,136 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:44,159 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:44,400 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:56:46,138 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:48,139 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:49,299 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:50,141 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:52,143 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:54,144 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:54,322 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:56:56,147 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:58,149 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:56:58,321 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:56:58,335 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:56:58,335 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:56:59,867 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:00,151 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:02,152 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:04,155 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:04,871 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:06,157 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:08,161 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:09,875 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:10,163 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:12,165 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:13,321 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:57:13,335 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:57:13,335 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:57:13,841 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:57:13,841 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:57:13,842 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:57:13,845 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:57:14,167 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:14,167 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:57:14,401 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:57:15,169 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:15,402 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:16,200 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:20,402 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:25,403 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:28,678 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:57:28,678 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:57:28,679 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:57:30,440 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:30,472 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:32,474 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:34,476 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:35,694 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:36,479 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:38,489 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:40,493 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:40,957 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:42,495 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:43,670 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:57:43,678 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:57:43,678 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:57:44,401 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:57:44,497 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:46,235 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:46,502 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:48,508 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:50,517 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:51,513 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:52,524 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:54,529 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:56,536 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:56,785 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:57:58,539 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:57:58,670 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:57:58,678 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:57:58,678 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:58:00,541 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:02,078 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:02,544 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:04,547 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:06,553 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:07,342 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:08,579 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:10,581 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:12,582 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:12,600 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:13,671 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:58:13,678 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:58:13,678 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:58:14,402 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:58:14,586 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:15,114 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:58:15,115 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:58:15,115 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:58:15,118 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:58:15,587 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:58:16,588 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:17,591 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:17,638 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:18,592 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:20,597 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:22,599 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:23,267 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:24,610 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:26,612 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:28,268 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:28,616 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:28,672 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:58:28,678 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:58:28,678 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:58:30,618 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:32,619 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:33,286 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:34,621 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:36,623 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:38,305 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:38,628 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:40,630 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:42,632 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:43,672 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:58:43,676 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:43,678 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:58:43,678 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:58:44,403 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:58:44,634 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:46,636 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:48,638 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:49,095 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:50,641 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:52,644 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:54,117 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:54,646 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:56,648 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:57,981 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:58:57,982 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:58:57,983 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:58:57,986 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:58:58,649 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:58:58,650 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:58:58,802 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:58:58,841 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:58:58,841 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:58:59,142 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:58:59,665 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:00,673 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:04,142 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:09,143 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:12,717 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:13,689 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:59:13,705 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:59:13,705 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:59:14,403 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:59:14,404 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:14,719 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:16,723 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:18,725 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:19,683 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:20,726 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:22,738 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:24,740 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:24,952 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:26,742 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:28,689 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:59:28,705 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:59:28,705 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:59:28,763 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:30,234 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:30,764 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:32,766 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:34,768 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:35,522 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:36,770 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:38,772 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:40,774 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:40,797 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:42,779 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:43,689 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:59:43,706 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:59:43,706 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:59:44,404 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 17:59:44,782 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:46,047 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:46,783 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:48,786 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:50,787 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:51,329 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:52,789 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:54,791 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:56,590 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 17:59:56,793 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:57,813 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 17:59:57,814 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 17:59:57,814 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 17:59:57,819 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 17:59:58,693 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 17:59:58,706 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 17:59:58,706 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 17:59:58,794 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 17:59:58,794 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 17:59:59,852 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:00,853 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:01,717 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:02,856 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:04,859 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:06,899 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:07,841 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:09,320 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:10,326 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:11,912 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:12,728 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:13,693 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 18:00:13,706 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 18:00:13,706 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 18:00:14,404 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 18:00:15,477 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:17,136 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:17,172 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:20,171 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:21,311 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:22,314 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:22,432 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:24,327 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:26,331 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:27,437 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:28,333 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:28,693 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 18:00:28,706 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 18:00:28,706 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 18:00:30,334 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:32,338 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:32,451 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:34,349 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:36,351 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:36,630 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 18:00:36,631 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 18:00:36,632 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 18:00:36,636 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 18:00:37,353 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:37,353 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 18:00:37,636 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:38,386 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:00:42,637 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:43,756 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 18:00:43,756 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 18:00:43,763 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 18:00:44,405 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 18:00:48,406 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:53,406 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:58,407 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:00:58,698 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 18:00:58,711 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 18:00:58,711 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 18:01:03,926 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:01:08,927 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:01:13,698 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 18:01:13,711 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 18:01:13,711 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 18:01:13,971 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:01:14,406 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 18:01:19,406 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:01:24,407 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:01:28,698 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 18:01:28,711 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-31 18:01:28,711 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: stop_status
+2023-10-31 18:01:29,918 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:01:31,422 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-31 18:01:31,424 DEBUG   SenderThread:269328 [sender.py:send():380] send: metric
+2023-10-31 18:01:31,424 DEBUG   SenderThread:269328 [sender.py:send():380] send: metric
+2023-10-31 18:01:31,424 DEBUG   SenderThread:269328 [sender.py:send():380] send: metric
+2023-10-31 18:01:31,424 DEBUG   SenderThread:269328 [sender.py:send():380] send: metric
+2023-10-31 18:01:31,424 DEBUG   SenderThread:269328 [sender.py:send():380] send: metric
+2023-10-31 18:01:31,424 DEBUG   SenderThread:269328 [sender.py:send():380] send: history
+2023-10-31 18:01:31,424 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: summary_record
+2023-10-31 18:01:31,510 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 18:01:31,511 DEBUG   SenderThread:269328 [sender.py:send():380] send: telemetry
+2023-10-31 18:01:31,511 DEBUG   SenderThread:269328 [sender.py:send():380] send: exit
+2023-10-31 18:01:31,511 INFO    SenderThread:269328 [sender.py:send_exit():585] handling exit code: 0
+2023-10-31 18:01:31,511 INFO    SenderThread:269328 [sender.py:send_exit():587] handling runtime: 1097
+2023-10-31 18:01:31,523 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 18:01:31,523 INFO    SenderThread:269328 [sender.py:send_exit():593] send defer
+2023-10-31 18:01:31,523 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:31,524 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 0
+2023-10-31 18:01:31,524 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:31,524 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-31 18:01:31,524 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 1
+2023-10-31 18:01:31,524 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:31,524 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 1
+2023-10-31 18:01:31,524 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:31,524 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-31 18:01:31,524 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 2
+2023-10-31 18:01:31,524 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:31,524 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 2
+2023-10-31 18:01:31,524 INFO    HandlerThread:269328 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-31 18:01:31,525 DEBUG   SystemMonitor:269328 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-31 18:01:31,525 DEBUG   SystemMonitor:269328 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-31 18:01:31,525 INFO    HandlerThread:269328 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-31 18:01:31,525 INFO    HandlerThread:269328 [interfaces.py:finish():202] Joined disk monitor
+2023-10-31 18:01:31,577 INFO    HandlerThread:269328 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-31 18:01:31,577 INFO    HandlerThread:269328 [interfaces.py:finish():202] Joined memory monitor
+2023-10-31 18:01:31,577 INFO    HandlerThread:269328 [interfaces.py:finish():202] Joined network monitor
+2023-10-31 18:01:31,577 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:31,577 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-31 18:01:31,577 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 3
+2023-10-31 18:01:31,577 DEBUG   SenderThread:269328 [sender.py:send():380] send: stats
+2023-10-31 18:01:31,578 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:31,578 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 3
+2023-10-31 18:01:31,578 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:31,578 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-31 18:01:31,578 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 4
+2023-10-31 18:01:31,578 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:31,578 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 4
+2023-10-31 18:01:31,578 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:31,578 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-31 18:01:31,578 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 5
+2023-10-31 18:01:31,578 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:31,578 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 5
+2023-10-31 18:01:31,579 DEBUG   SenderThread:269328 [sender.py:send():380] send: summary
+2023-10-31 18:01:31,590 INFO    SenderThread:269328 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-31 18:01:31,590 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:31,590 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-31 18:01:31,590 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 6
+2023-10-31 18:01:31,590 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:31,590 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 6
+2023-10-31 18:01:31,590 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:31,590 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-31 18:01:31,594 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: status_report
+2023-10-31 18:01:31,911 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 7
+2023-10-31 18:01:31,911 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:31,911 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 7
+2023-10-31 18:01:31,911 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:31,911 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-31 18:01:32,426 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-31 18:01:32,491 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:01:32,491 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/config.yaml
+2023-10-31 18:01:32,491 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 18:01:32,918 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 8
+2023-10-31 18:01:32,918 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: poll_exit
+2023-10-31 18:01:32,918 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:32,919 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 8
+2023-10-31 18:01:32,919 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:32,919 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-31 18:01:32,919 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 9
+2023-10-31 18:01:32,919 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:32,919 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 9
+2023-10-31 18:01:32,919 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:32,919 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-31 18:01:32,919 INFO    SenderThread:269328 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-31 18:01:33,426 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-31 18:01:33,491 INFO    Thread-12 :269328 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:01:33,492 INFO    SenderThread:269328 [dir_watcher.py:finish():388] scan: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files
+2023-10-31 18:01:33,492 INFO    SenderThread:269328 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/conda-environment.yaml conda-environment.yaml
+2023-10-31 18:01:33,492 INFO    SenderThread:269328 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/config.yaml config.yaml
+2023-10-31 18:01:33,492 INFO    SenderThread:269328 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-metadata.json wandb-metadata.json
+2023-10-31 18:01:33,492 INFO    SenderThread:269328 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/requirements.txt requirements.txt
+2023-10-31 18:01:33,492 INFO    SenderThread:269328 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log output.log
+2023-10-31 18:01:33,497 INFO    SenderThread:269328 [dir_watcher.py:finish():402] scan save: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json wandb-summary.json
+2023-10-31 18:01:33,497 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 10
+2023-10-31 18:01:33,497 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: poll_exit
+2023-10-31 18:01:33,499 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:33,499 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 10
+2023-10-31 18:01:33,501 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:33,501 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-31 18:01:33,501 INFO    SenderThread:269328 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-31 18:01:34,147 INFO    wandb-upload_0:269328 [upload_job.py:push():131] Uploaded file /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/conda-environment.yaml
+2023-10-31 18:01:34,170 INFO    wandb-upload_2:269328 [upload_job.py:push():131] Uploaded file /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/requirements.txt
+2023-10-31 18:01:34,170 INFO    wandb-upload_4:269328 [upload_job.py:push():131] Uploaded file /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/wandb-summary.json
+2023-10-31 18:01:34,188 INFO    wandb-upload_1:269328 [upload_job.py:push():131] Uploaded file /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/config.yaml
+2023-10-31 18:01:34,194 INFO    wandb-upload_3:269328 [upload_job.py:push():131] Uploaded file /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/files/output.log
+2023-10-31 18:01:34,394 INFO    Thread-11 (_thread_body):269328 [sender.py:transition_state():613] send defer: 11
+2023-10-31 18:01:34,394 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:34,394 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 11
+2023-10-31 18:01:34,394 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:34,394 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-31 18:01:34,394 INFO    SenderThread:269328 [file_pusher.py:join():181] waiting for file pusher
+2023-10-31 18:01:34,394 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 12
+2023-10-31 18:01:34,395 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:34,395 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 12
+2023-10-31 18:01:34,395 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:34,395 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-31 18:01:34,395 INFO    SenderThread:269328 [file_stream.py:finish():595] file stream finish called
+2023-10-31 18:01:34,427 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-31 18:01:35,313 INFO    SenderThread:269328 [file_stream.py:finish():599] file stream finish is done
+2023-10-31 18:01:35,313 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 13
+2023-10-31 18:01:35,313 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: poll_exit
+2023-10-31 18:01:35,314 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:35,314 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 13
+2023-10-31 18:01:35,314 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:35,314 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-31 18:01:35,314 INFO    SenderThread:269328 [sender.py:transition_state():613] send defer: 14
+2023-10-31 18:01:35,314 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: defer
+2023-10-31 18:01:35,314 INFO    HandlerThread:269328 [handler.py:handle_request_defer():172] handle defer: 14
+2023-10-31 18:01:35,314 DEBUG   SenderThread:269328 [sender.py:send():380] send: final
+2023-10-31 18:01:35,314 DEBUG   SenderThread:269328 [sender.py:send():380] send: footer
+2023-10-31 18:01:35,315 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: defer
+2023-10-31 18:01:35,315 INFO    SenderThread:269328 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-31 18:01:35,315 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-31 18:01:35,316 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-31 18:01:35,316 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: poll_exit
+2023-10-31 18:01:35,316 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: server_info
+2023-10-31 18:01:35,316 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: get_summary
+2023-10-31 18:01:35,316 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: sampled_history
+2023-10-31 18:01:35,317 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: job_info
+2023-10-31 18:01:35,317 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: server_info
+2023-10-31 18:01:35,509 DEBUG   SenderThread:269328 [sender.py:send_request():407] send_request: job_info
+2023-10-31 18:01:35,510 DEBUG   HandlerThread:269328 [handler.py:handle_request():146] handle_request: shutdown
+2023-10-31 18:01:35,510 INFO    HandlerThread:269328 [handler.py:finish():866] shutting down handler
+2023-10-31 18:01:36,317 INFO    WriterThread:269328 [datastore.py:close():294] close: /data/ndeo/bart/bart-hf-model/wandb/run-20231031_174313-7bz2ibb8/run-7bz2ibb8.wandb
+2023-10-31 18:01:36,510 INFO    SenderThread:269328 [sender.py:finish():1534] shutting down sender
+2023-10-31 18:01:36,510 INFO    SenderThread:269328 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-31 18:01:36,510 INFO    SenderThread:269328 [file_pusher.py:join():181] waiting for file pusher
