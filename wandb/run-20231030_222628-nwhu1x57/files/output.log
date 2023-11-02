@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "/data/ndeo/bart/bart-hf-model/hyperparameter-search-base.py", line 100, in train
-    training_args = Seq2SeqTrainingArguments(
-  File "<string>", line 119, in __init__
-  File "/opt/conda/lib/python3.10/site-packages/transformers/training_args.py", line 1304, in __post_init__
-    raise ValueError(
-ValueError: --load_best_model_at_end requires the save and eval strategy to match, but found
-- Evaluation strategy: steps
-- Save strategy: epoch
