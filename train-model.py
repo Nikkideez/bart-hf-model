@@ -5,6 +5,7 @@ from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2Se
 from process_data import *
 from metrics import *
 from test_generator import *
+import argparse
 
 """ #### Set variables """
 
@@ -20,9 +21,22 @@ test_dataset_path = None
 #checkpoint = "facebook/bart-large"
 checkpoint = "facebook/bart-base"
 seed=42
-epochs = int(input("Enter the number of epochs to train: "))
 report_to = "none" # set to "wandb" if you want to report to wandb. You will need to set the .env (see the repo)
 # report_to = "wandb"
+
+# Some parsers so you don't have to keep changing the file
+parser = argparse.ArgumentParser(description='Training Model')
+parser.add_argument('--epochs', help='Number of epochs to train')
+parser.add_argument('--checkpoint', help='Checkpoint to use (overwrites existing checkpoint)')
+args = parser.parse_args()
+
+if args.epochs:
+    epochs = int(args.epochs)
+else:
+    epochs = int(input("Enter the number of epochs to train: "))
+
+if args.checkpoint:
+    checkpoint = args.checkpoint
 
 """ #### Create the output dir if it does not exist """
 
