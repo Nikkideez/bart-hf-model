@@ -14,8 +14,8 @@ current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 target_dir = "./dump"
 output_dir = f"{target_dir}/inference_{current_time}/"
 dataset_format="csv"
-dataset_path="./CECW-en-ltl-dataset(combined).csv" # Test datadata which new test sets are also generated with if test_dataset_path = None
-test_dataset_path="./dump/testdata_2023-11-02_06-57-00/test_dataset.hf" # set the path to None if you want to generate a new test dataset
+dataset_path="./data/CECW-en-ltl-dataset(combined).csv" # Test datadata which new test sets are also generated with if test_dataset_path = None
+test_dataset_path="./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset
 checkpoint = "./dump/run_2023-11-02_07-34-28/checkpoint-6750" # Loading a trained model
 seed=42
 report_to = "none"

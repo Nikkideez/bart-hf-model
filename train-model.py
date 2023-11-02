@@ -13,13 +13,16 @@ current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 # target_dir = "/data/ndeo/bart/hypersearch"
 target_dir = "./dump"
 output_dir = f"{target_dir}/run_{current_time}/"
-dataset_format="csv"
-dataset_path="./CECW-en-ltl-dataset(combined).csv"
-test_dataset_path="./dump/testdata_2023-11-02_06-57-00/test_dataset.hf" # set the path to None if you want to generate a new test dataset
+dataset_format ="csv"
+dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
+# test_dataset_path = "./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset
+test_dataset_path = None
 #checkpoint = "facebook/bart-large"
 checkpoint = "facebook/bart-base"
 seed=42
-epochs=int(input("Enter the number of epochs to train: "))
+epochs = int(input("Enter the number of epochs to train: "))
+report_to = "none" # set to "wandb" if you want to report to wandb. You will need to set the .env (see the repo)
+# report_to = "wandb"
 
 """ #### Create the output dir if it does not exist """
 
@@ -27,9 +30,10 @@ if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 """ #### Log into WANDB """
-# Note: Environment variables are loaded from .env through load_dotenv()
-# Just make sure its in the same directory
-wandb.login()
+if report_to != "none":
+    # Note: Environment variables are loaded from .env through load_dotenv()
+    # Just make sure its in the same directory
+    wandb.login()
 
 """ #### Load and Preprocess Data """
 
@@ -82,7 +86,7 @@ training_args = Seq2SeqTrainingArguments(
     fp16=True,
     push_to_hub=False,
     logging_steps=1,
-    report_to="wandb"
+    report_to=report_to
 )
 
 trainer = Seq2SeqTrainer(

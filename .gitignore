@@ -1,2 +1,4 @@
 /dump/
 .env
+/wandb/
+# /__pycache__/

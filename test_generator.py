@@ -2,6 +2,7 @@
 import re
 import random
 import string
+import os
 from datasets import Dataset, DatasetDict
 
 
@@ -97,12 +98,17 @@ def write_array_to_file(data, filename="output.txt"):
             file.write(item + "\n")
 
 def write_datasetDict(dataset_dict, output_dir):
-    for key, dataset in dataset_dict.items():
-        write_array_to_file(dataset["en"], f"{output_dir}/test-{key}-eng.txt")
-        print(f"created {output_dir}/test-{key}-eng.txt")
-        write_array_to_file(dataset["ltl"], f"{output_dir}/test-{key}-ltl.txt")
-        print(f"created {output_dir}/test-{key}-ltl.txt")
 
+    test_dir = os.path.join(output_dir, "test_datasets")
+    
+    if not os.path.exists(test_dir):
+        os.makedirs(test_dir)
+
+    for key, dataset in dataset_dict.items():
+        write_array_to_file(dataset["en"], f"{test_dir}/test-{key}-eng.txt")
+        print(f"created {output_dir}/test-{key}-eng.txt")
+        write_array_to_file(dataset["ltl"], f"{test_dir}/test-{key}-ltl.txt")
+        print(f"created {output_dir}/test-{key}-ltl.txt")
 
 def generate_test_dataset(og_data, random_words, unique_characters, polysemous_words):
     

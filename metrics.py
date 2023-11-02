@@ -143,13 +143,16 @@ def write_test_metrics_to_csv(key, metrics, output_dir):
 
 def evaluate_datadict(tokenized_datadict, trainer, output_dir, tokenizer):
     predictions = {}
+    pred_dir = os.path.join(output_dir, "preds")
+    
+    if not os.path.exists(pred_dir):
+        os.makedirs(pred_dir)
 
     for key, dataset in tokenized_datadict.items():
-        print("This is the key!!: ", key)
+        print("Testing For: " , key)
         predictions[key] = trainer.predict(dataset)
         print(predictions[key].metrics)
-        # print(predictions[key].predictions)
         decoded_preds = tokenizer.batch_decode(predictions[key].predictions, skip_special_tokens=True)
-        # print(decoded_preds)
-        write_array_to_file(decoded_preds, f"{output_dir}/test-{key}-pred.txt")
+        
+        write_array_to_file(decoded_preds, f"{pred_dir}/test-{key}-pred.txt")
         write_test_metrics_to_csv(key, predictions[key].metrics, output_dir)
