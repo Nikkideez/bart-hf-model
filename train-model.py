@@ -52,6 +52,7 @@ if not os.path.exists(output_dir):
 if report_to != "none":
     # Note: Environment variables are loaded from .env through load_dotenv()
     # Just make sure its in the same directory
+    print("Logging into wanbd")
     wandb.login()
 
 """ #### Load and Preprocess Data """
