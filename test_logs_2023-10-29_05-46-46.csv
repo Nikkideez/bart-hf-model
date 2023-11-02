@@ -1,2 +1,0 @@
-Loss,Bleu,Exact Match,Spot Accuracy,Gen Len,Runtime,Samples Per Second,Steps Per Second
-0.20198848843574524,73.8153,0.429,0.429,14.8664,30.3991,70.923,2.237

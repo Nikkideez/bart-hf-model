@@ -11,10 +11,11 @@ from test_generator import *
 load_dotenv()
 current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 # target_dir = "/data/ndeo/bart/hypersearch"
-target_dir = "/home/nikx/capstone/dump"
+target_dir = "./dump"
 output_dir = f"{target_dir}/run_{current_time}/"
 dataset_format="csv"
 dataset_path="./CECW-en-ltl-dataset(combined).csv"
+test_dataset_path="./dump/testdata_2023-11-02_06-57-00/test_dataset.hf" # set the path to None if you want to generate a new test dataset
 #checkpoint = "facebook/bart-large"
 checkpoint = "facebook/bart-base"
 seed=42
@@ -32,48 +33,25 @@ wandb.login()
 
 """ #### Load and Preprocess Data """
 
-dataset = load_data(dataset_format, dataset_path, seed)
+test_dataset, dataset = load_data(dataset_format, dataset_path, seed, test_dataset_path=test_dataset_path)
 
 tokenized_dataset, data_collator, tokenizer = preprocess_data(dataset, checkpoint)
 
 
 """ #### Generate Additional Test Data """
 
-print("Rare words \n")
-rare_test = replace_phrases_with_random_words(dataset["test"], random_words=random_words)
-printCompare(dataset["test"], rare_test)
+if not test_dataset:
+    
+    # Generate a new test dataset
+    test_dataset = generate_test_dataset(dataset["test"], random_words, unique_characters, polysemous_words)
 
-print("\n\n")
+    # Write in txt format
+    write_datasetDict(test_dataset, output_dir)
+    # Write in an HF DataDict format if you want to easily load these again later
+    test_dataset.save_to_disk(output_dir + "/test_dataset.hf")
 
-print("Random words (Gibberish) \n")
-random_test = replace_phrases_with_random_words(dataset["test"], characters=string.ascii_letters, min_length=5, max_length=20)
-printCompare(dataset["test"], random_test)
-
-
-print("\n\n")
-
-print("Non-standard characters \n")
-nonstd_test = replace_phrases_with_random_words(dataset["test"], characters=string.ascii_letters + unique_characters, min_length=5, max_length=20)
-printCompare(dataset["test"], nonstd_test)
-
-print("\n\n")
-
-print("Contexualized (polysemous) words \n")
-poly_test = replace_phrases_with_random_words(dataset["test"], random_words=polysemous_words)
-printCompare(dataset["test"], poly_test)
-
-test_dataset = DatasetDict({
-    'rare': rare_test,
-    'random': random_test,
-    'nonstd': nonstd_test,
-    'poly': poly_test,
-})
 
 print(test_dataset)
-
-write_datasetDict(test_dataset, output_dir)
-write_array_to_file(dataset["test"]["en"], f"{output_dir}/test-original-eng.txt")
-write_array_to_file(dataset["test"]["ltl"], f"{output_dir}/test-original-ltl.txt")
 tokenized_test, _,_ = preprocess_data(test_dataset, checkpoint)
 
 
@@ -125,6 +103,6 @@ trainer.train()
 # print(test_predictions.metrics)
 # write_test_metrics_to_csv(test_predictions.metrics, output_dir)
 
-tokenized_test["original"] = tokenized_dataset["test"]
+# tokenized_test["original"] = tokenized_dataset["test"]
 
 evaluate_datadict(tokenized_test, trainer, output_dir, tokenizer)

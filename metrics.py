@@ -117,9 +117,9 @@ class CSVLoggerCallback(TrainerCallback):
                 csv.writer(file).writerow([state.epoch] + [self.current_epoch_data.get(key, "") for key in self.CSV_HEADER[1:]])
             self.current_epoch_data = {}
  
-def write_test_metrics_to_csv(metrics, output_dir):
+def write_test_metrics_to_csv(key, metrics, output_dir):
     # Define the CSV header and metrics keys
-    CSV_HEADER = ["Loss", "Bleu", "Exact Match", "Spot Accuracy", "Gen Len", "Runtime", "Samples Per Second", "Steps Per Second"]
+    CSV_HEADER = ["Key", "Loss", "Bleu", "Exact Match", "Spot Accuracy", "Gen Len", "Runtime", "Samples Per Second", "Steps Per Second"]
     METRICS_KEYS = ["test_loss", "test_bleu", "test_exact_match", "test_spot_acc", "test_gen_len", "test_runtime", "test_samples_per_second", "test_steps_per_second"]
 
     # Create a filename with the current time
@@ -136,7 +136,8 @@ def write_test_metrics_to_csv(metrics, output_dir):
         # Write the header only if the file didn't exist before
         if not file_exists:
             writer.writerow(CSV_HEADER)
-        writer.writerow([metrics.get(key, "") for key in METRICS_KEYS])
+        row_data = [key] + [metrics.get(metric_key, "") for metric_key in METRICS_KEYS]
+        writer.writerow(row_data)
 
 
 
@@ -151,4 +152,4 @@ def evaluate_datadict(tokenized_datadict, trainer, output_dir, tokenizer):
         decoded_preds = tokenizer.batch_decode(predictions[key].predictions, skip_special_tokens=True)
         # print(decoded_preds)
         write_array_to_file(decoded_preds, f"{output_dir}/test-{key}-pred.txt")
-        write_test_metrics_to_csv(predictions[key].metrics, output_dir)
+        write_test_metrics_to_csv(key, predictions[key].metrics, output_dir)

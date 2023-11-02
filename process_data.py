@@ -1,15 +1,15 @@
 """ # Functions to load and preprocess data """
 
-from datasets import load_dataset, DatasetDict
+from datasets import load_dataset, load_from_disk, DatasetDict
 from transformers import AutoTokenizer, DataCollatorForSeq2Seq
 
 """ #### Load Data """
-def load_data(dataset_format, dataset_path, seed):
+def load_data(dataset_format, dataset_path, seed, test_dataset_path=None):
     # dataset = load_dataset("cRick/NL-to-LTL-Synthetic-Dataset")
     # dataset = load_dataset("parquet", data_files={'train': '/content/drive/MyDrive/ERP/train/0000.parquet', 'test': '/content/drive/MyDrive/ERP/test/0000.parquet'})
     # dataset = load_dataset("text", data_files={'ltl': '/content/drive/MyDrive/ERP/data_src_combined.txt', 'en': '/content/drive/MyDrive/ERP/data_tar_combined.txt'})
     dataset = load_dataset(dataset_format, data_files=dataset_path)
-
+    
     print(dataset)
 
 
@@ -20,13 +20,18 @@ def load_data(dataset_format, dataset_path, seed):
 
     dataset = DatasetDict({
         'train': train_test["train"],
-        'test': train_test["test"],
+        'test': test_valid["test"],
         'valid': test_valid["test"],
         })
 
     print(dataset)
-    
-    return dataset
+
+    if test_dataset_path:
+        test_dataset = load_from_disk(test_dataset_path)
+    else:
+        test_dataset = None
+
+    return test_dataset, dataset
 
 
 def preprocess_data(dataset, checkpoint):

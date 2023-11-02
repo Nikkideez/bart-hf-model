@@ -2,7 +2,7 @@
 import re
 import random
 import string
-from datasets import Dataset
+from datasets import Dataset, DatasetDict
 
 
 """ #### Functions for Generating Data"""
@@ -23,7 +23,7 @@ def generate_random_word(characters, min_length, max_length, seed=None):
     word_length = random.randint(min_length, max_length)
     return ''.join(random.choice(characters) for _ in range(word_length))
 
-def replace_phrases_with_random_words(data, random_words=None, characters=string.ascii_letters + "_%#", min_length=5, max_length=20,  seed=None):
+def replace_phrases_with_random_words(data, random_words=None, characters=string.ascii_letters + "_%#", min_length=5, max_length=20,  seed="yes"):
     # random.seed(seed)
     
     # if random_words is None:
@@ -32,9 +32,13 @@ def replace_phrases_with_random_words(data, random_words=None, characters=string
     updated_ltl = []
     updated_eng = []
     
-    for formula, sentence in zip(data["ltl"], data["en"]):
+    for index, (formula, sentence) in enumerate(zip(data["ltl"], data["en"])):
+        if seed == "yes":
+            seed = index
+        else:
+            seed = None
         ltl_phrases = tokenize_formula(formula)
-
+        # print(ltl_phrases)
         eng_phrases = {}
         for token in ltl_phrases:
             if "_" in token:
@@ -54,11 +58,14 @@ def replace_phrases_with_random_words(data, random_words=None, characters=string
         for eng_phrase in eng_phrases.values():
             # If we have a random list
             if random_words:
+                if seed is not None:
+                    random.seed(seed)
+                # random.seed(index)
                 word = random.choice(unused_words)
                 unused_words.remove(word)  # Remove the word from the unused list
             # Else if we want to generate random words
             else:  
-                word = generate_random_word(characters, min_length, max_length)
+                word = generate_random_word(characters, min_length, max_length, seed=seed)
 
             word_mappings[eng_phrase] = word
 
@@ -71,6 +78,7 @@ def replace_phrases_with_random_words(data, random_words=None, characters=string
         updated_eng.append(sentence)
 
     return Dataset.from_dict({"ltl": updated_ltl, "en": updated_eng})
+
 
 """ #### Basic print function to Compare new data"""
 
@@ -86,7 +94,7 @@ def write_array_to_file(data, filename="output.txt"):
     
     with open(filename, "w") as file:
         for item in data:
-            file.write(item + ",\n")
+            file.write(item + "\n")
 
 def write_datasetDict(dataset_dict, output_dir):
     for key, dataset in dataset_dict.items():
@@ -94,6 +102,44 @@ def write_datasetDict(dataset_dict, output_dir):
         print(f"created {output_dir}/test-{key}-eng.txt")
         write_array_to_file(dataset["ltl"], f"{output_dir}/test-{key}-ltl.txt")
         print(f"created {output_dir}/test-{key}-ltl.txt")
+
+
+def generate_test_dataset(og_data, random_words, unique_characters, polysemous_words):
+    
+    print("Rare words \n")
+    rare_test = replace_phrases_with_random_words(og_data, random_words=random_words)
+    printCompare(og_data, rare_test)
+
+    print("\n\n")
+
+    print("Random words (Gibberish) \n")
+    random_test = replace_phrases_with_random_words(og_data, characters=string.ascii_letters, min_length=5, max_length=20)
+    printCompare(og_data, random_test)
+
+
+    print("\n\n")
+
+    print("Non-standard characters \n")
+    nonstd_test = replace_phrases_with_random_words(og_data, characters=string.ascii_letters + unique_characters, min_length=5, max_length=20)
+    printCompare(og_data, nonstd_test)
+
+    print("\n\n")
+
+    print("Contexualized (polysemous) words \n")
+    poly_test = replace_phrases_with_random_words(og_data, random_words=polysemous_words)
+    printCompare(og_data, poly_test)
+
+    test_dataset = DatasetDict({
+        'original': og_data,
+        'rare': rare_test,
+        'random': random_test,
+        'nonstd': nonstd_test,
+        'poly': poly_test,
+    })
+
+    # print(test_dataset)
+
+    return test_dataset
 
 
 """ #### List of inputs for generating Test data """
