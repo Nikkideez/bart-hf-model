@@ -28,6 +28,7 @@ report_to = "none" # set to "wandb" if you want to report to wandb. You will nee
 parser = argparse.ArgumentParser(description='Training Model')
 parser.add_argument('--epochs', help='Number of epochs to train')
 parser.add_argument('--checkpoint', help='Checkpoint to use (overwrites existing checkpoint)')
+parser.add_argument('--reportto', help='Specify if the trainer will report training metrics. Value is passed into report-to argument in trainer args.')
 args = parser.parse_args()
 
 if args.epochs:
@@ -37,6 +38,10 @@ else:
 
 if args.checkpoint:
     checkpoint = args.checkpoint
+
+if args.reportto:
+    report_to = args.reportto
+
 
 """ #### Create the output dir if it does not exist """
 
