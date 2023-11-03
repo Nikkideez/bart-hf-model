@@ -15,14 +15,23 @@ def load_data(dataset_format, dataset_path, seed, test_dataset_path=None):
 
     """ #### Split the data into Train, Valid and Test """
 
-    train_test = dataset["train"].train_test_split(test_size=0.3, seed=seed)
-    test_valid = train_test["test"].train_test_split(test_size=0.5, seed=seed)
+    if dataset_format == "csv":
+        train_test = dataset["train"].train_test_split(test_size=0.3, seed=seed)
+        test_valid = train_test["test"].train_test_split(test_size=0.5, seed=seed)
 
-    dataset = DatasetDict({
-        'train': train_test["train"],
-        'test': test_valid["test"],
-        'valid': test_valid["test"],
-        })
+        dataset = DatasetDict({
+            'train': train_test["train"],
+            'test': test_valid["test"],
+            'valid': test_valid["test"],
+            })
+    elif dataset_format == "parquet":
+        train_valid = dataset["train"].train_test_split(test_size=0.1, seed=seed)
+
+        dataset["train"] = train_valid["train"]
+        dataset["valid"] = train_valid["test"]
+
+    else:
+        print("Dataset format unsupported. Check load_data and adjust the code manually. Refer to https://huggingface.co/docs/datasets/loading")
 
     print(dataset)
 
