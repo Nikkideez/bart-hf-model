@@ -21,7 +21,7 @@ dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf
 # test_dataset_path = "./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset
 test_dataset_path = None
 #checkpoint = "facebook/bart-large"
-checkpoint = "facebook/bart-large"
+checkpoint = "facebook/bart-base"
 seed=42
 report_to = "none" # set to "wandb" if you want to report to wandb. You will need to set the .env (see the repo)
 # report_to = "wandb"
@@ -83,7 +83,7 @@ tokenized_test, _,_ = preprocess_data(test_dataset, checkpoint)
 
 """ ## Model """
 
-model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, dropout=0.25)
+model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, dropout=0.20)
 
 print(model.config)
 
@@ -92,10 +92,10 @@ print(model.config)
 
 training_args = Seq2SeqTrainingArguments(
     output_dir=output_dir,
-    learning_rate=0.00002629697216493378,
+    learning_rate=0.00007563606142800364,
     per_device_train_batch_size=32,
     per_device_eval_batch_size=32,
-    weight_decay=0.4,
+    weight_decay=0.3,
     save_strategy="epoch",
     evaluation_strategy="epoch",
     logging_strategy="epoch",
