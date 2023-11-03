@@ -63,14 +63,15 @@ def compute_metrics(eval_preds, tokenizer):
     #if self.data_args.ignore_pad_token_for_loss: 
         # Replace -100 in the labels as we can't decode them. 
     preds = np.where(preds != -100, preds, tokenizer.pad_token_id)
+
     print("Max token ID in preds:", preds.max())
     print("Tokenizer vocab size:", tokenizer.vocab_size)
     
-    if not all(isinstance(x, (int, np.integer)) for x in preds.flat):
-        raise ValueError("Non-integer token ID found")
+    # if not all(isinstance(x, (int, np.integer)) for x in preds.flat):
+    #     raise ValueError("Non-integer token ID found")
 
-    if np.isnan(preds).any() or np.isinf(preds).any():
-        raise ValueError("Found NaN or Inf in predictions")
+    # if np.isnan(preds).any() or np.isinf(preds).any():
+    #     raise ValueError("Found NaN or Inf in predictions")
 
     #if (preds < 0).any() or (preds >= tokenizer.vocab_size).any():
     #    raise ValueError("Found token IDs out of range")

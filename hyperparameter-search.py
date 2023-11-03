@@ -10,14 +10,19 @@ from metrics import *
 
 load_dotenv()
 current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-output_dir = f"/data/ndeo/bart/hypersearch/run_{current_time}/"
-#output_dir="/data/ndeo/bart/hypersearch/"
-#epochs=int(input("Enter the number of epochs to train: "))
-dataset_format="csv"
-dataset_path="./CECW-en-ltl-dataset(combined).csv"
+# target_dir = "/data/ndeo/bart/hypersearch"
+target_dir = "./dump"
+output_dir = f"{target_dir}/hyperun_{current_time}/"
+# dataset_format ="csv"
+dataset_format = "parquet"
+# dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
+dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
+# test_dataset_path = "./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset
+test_dataset_path = None
+#checkpoint = "facebook/bart-large"
 checkpoint = "facebook/bart-large"
-#checkpoint = "facebook/bart-base"
 seed=42
+report_to = "none" # set to "wandb" if you want to report to wandb. You will need to set the .env (see the repo)
 projectName = 'nlp-ltl-capstone'
 search_method = "bayes" 
 
@@ -59,15 +64,15 @@ sweep_config = {
 # hyperparameter range
 parameters_dict = {
     'epochs': {
-        'value': 50
+        'value': 10
         },
     'batch_size': {
-        'values': [8, 16, 32, 64]
+        'values': [16, 32, 64, 128]
         },
     'learning_rate': {
         'distribution': 'log_uniform_values',
         'min': 8e-6,
-        'max': 1e-4
+        'max': 3e-4
     },
     'weight_decay': {
         'values': [0.2, 0.3, 0.4, 0.5, 0.6]
@@ -108,11 +113,12 @@ def train(config=None):
         logging_strategy='epoch',
         num_train_epochs=config.epochs,
         predict_with_generate=True,
+        generation_max_length=90,
         load_best_model_at_end=True,
         save_total_limit=2,
         metric_for_best_model="eval_spot_acc",
         gradient_accumulation_steps=config.gradient_accumulation_steps,
-        warmup_ratio=0.1,
+        warmup_ratio=0.05,
         fp16=True,
         push_to_hub=False,
         logging_steps=1,
