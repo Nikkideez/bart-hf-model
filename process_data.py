@@ -83,17 +83,19 @@ def preprocess_data(dataset, checkpoint):
 
 
     def preprocess_function(examples):
-        inputs = [prefix + example for example in examples[source_lang]]
-        model_inputs = tokenizer(inputs, max_length=256, padding="max_length", truncation=True)
-
-        # Setup the tokenizer for targets
-        with tokenizer.as_target_tokenizer():
-            labels = tokenizer(examples[target_lang], max_length=256, padding="max_length", truncation=True)
-
-        model_inputs["labels"] = labels["input_ids"]
         #inputs = [prefix + example for example in examples[source_lang]]
-        #targets = [example for example in examples[target_lang]]
-        #model_inputs = tokenizer(inputs, text_target=targets, truncation=True)
+        #model_inputs = tokenizer(inputs, max_length=256, padding="max_length", truncation=True)
+
+        ## Setup the tokenizer for targets
+        #with tokenizer.as_target_tokenizer():
+        #    labels = tokenizer(examples[target_lang], max_length=256, padding="max_length", truncation=True)
+
+        #model_inputs["labels"] = labels["input_ids"]
+        inputs = [prefix + example for example in examples[source_lang]]
+        targets = [example for example in examples[target_lang]]
+        #model_inputs = tokenizer(inputs, text_target=targets, max_length=256, truncation=True)
+        model_inputs = tokenizer(inputs, text_target=targets, truncation=True)
+
         return model_inputs
 
 
@@ -103,7 +105,7 @@ def preprocess_data(dataset, checkpoint):
     """ #### Data Collator """
 
 
-    data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer, model=checkpoint)
+    data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer, model=checkpoint, label_pad_token_id=tokenizer.pad_token_id)
 
     #class CustomDataCollatorForSeq2Seq(DataCollatorForSeq2Seq):
         #def __init__(self, *args, max_target_length=None, **kwargs):

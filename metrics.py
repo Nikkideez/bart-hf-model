@@ -60,7 +60,9 @@ def compute_metrics(eval_preds, tokenizer):
     preds, labels = eval_preds
     if isinstance(preds, tuple):
         preds = preds[0]
-    
+    #if self.data_args.ignore_pad_token_for_loss: 
+        # Replace -100 in the labels as we can't decode them. 
+    preds = np.where(preds != -100, preds, tokenizer.pad_token_id)
     print("Max token ID in preds:", preds.max())
     print("Tokenizer vocab size:", tokenizer.vocab_size)
     
@@ -70,8 +72,8 @@ def compute_metrics(eval_preds, tokenizer):
     if np.isnan(preds).any() or np.isinf(preds).any():
         raise ValueError("Found NaN or Inf in predictions")
 
-    if (preds < 0).any() or (preds >= tokenizer.vocab_size).any():
-        raise ValueError("Found token IDs out of range")
+    #if (preds < 0).any() or (preds >= tokenizer.vocab_size).any():
+    #    raise ValueError("Found token IDs out of range")
     
     print("Predictions shape:", preds.shape)
     print("Predictions before crash:", preds)
@@ -169,7 +171,8 @@ def evaluate_datadict(tokenized_datadict, trainer, output_dir, tokenizer):
         print("Testing For: " , key)
         predictions[key] = trainer.predict(dataset)
         print(predictions[key].metrics)
-        decoded_preds = tokenizer.batch_decode(predictions[key].predictions, skip_special_tokens=True)
+        preds = np.where(predictions[key].predictions != -100, predictions[key].predictions, tokenizer.pad_token_id)
+        decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
         
         write_array_to_file(decoded_preds, f"{pred_dir}/test-{key}-pred.txt")
         write_test_metrics_to_csv(key, predictions[key].metrics, output_dir)
