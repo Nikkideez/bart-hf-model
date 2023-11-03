@@ -15,9 +15,12 @@ current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 target_dir = "./dump"
 output_dir = f"{target_dir}/run_{current_time}/"
 # dataset_format ="csv"
-dataset_format = "parquet"
+# dataset_format = "parquet"
+dataset_format = None
 # dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
-dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
+# dataset_path ="./data/hf-data/unrestricted_train_dataset-140.csv"
+# dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
+dataset_path = "cRick/NL-to-LTL-Synthetic-Dataset"
 # test_dataset_path = "./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset
 test_dataset_path = None
 #checkpoint = "facebook/bart-large"
@@ -60,8 +63,13 @@ if report_to != "none":
 """ #### Load and Preprocess Data """
 
 test_dataset, dataset = load_data(dataset_format, dataset_path, seed, test_dataset_path=test_dataset_path)
-
 tokenized_dataset, data_collator, tokenizer = preprocess_data(dataset, checkpoint)
+
+# tokenized_dir = os.path.join(output_dir, "tokenized_dataset")
+# os.makedirs(tokenized_dir)
+print(tokenized_dataset)
+# print(tokenized_dataset["train"]["input_ids"])
+# write_tok_datasetDict(tokenized_dataset, output_dir)
 
 
 """ #### Generate Additional Test Data """
@@ -105,6 +113,7 @@ training_args = Seq2SeqTrainingArguments(
     metric_for_best_model="eval_loss",
     predict_with_generate=True,
     warmup_ratio=0.05,
+    generation_max_length=256,
     fp16=True,
     push_to_hub=False,
     logging_steps=1,

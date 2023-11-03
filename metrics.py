@@ -60,6 +60,23 @@ def compute_metrics(eval_preds, tokenizer):
     preds, labels = eval_preds
     if isinstance(preds, tuple):
         preds = preds[0]
+    
+    print("Max token ID in preds:", preds.max())
+    print("Tokenizer vocab size:", tokenizer.vocab_size)
+    
+    if not all(isinstance(x, (int, np.integer)) for x in preds.flat):
+        raise ValueError("Non-integer token ID found")
+
+    if np.isnan(preds).any() or np.isinf(preds).any():
+        raise ValueError("Found NaN or Inf in predictions")
+
+    if (preds < 0).any() or (preds >= tokenizer.vocab_size).any():
+        raise ValueError("Found token IDs out of range")
+    
+    print("Predictions shape:", preds.shape)
+    print("Predictions before crash:", preds)
+
+
     decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
 
     labels = np.where(labels != -100, labels, tokenizer.pad_token_id)

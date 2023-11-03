@@ -110,6 +110,25 @@ def write_datasetDict(dataset_dict, output_dir):
         write_array_to_file(dataset["ltl"], f"{test_dir}/test-{key}-ltl.txt")
         print(f"created {output_dir}/test-{key}-ltl.txt")
 
+def write_tok_datasetDict(dataset_dict, output_dir):
+
+    test_dir = os.path.join(output_dir, "tokenized_datasets")
+    
+    if not os.path.exists(test_dir):
+        os.makedirs(test_dir)
+
+    for key, dataset in dataset_dict.items():
+        write_array_to_file(dataset["en"], f"{test_dir}/test-{key}-eng.txt")
+        print(f"created {output_dir}/test-{key}-eng.txt")
+        write_array_to_file(dataset["ltl"], f"{test_dir}/test-{key}-ltl.txt")
+        print(f"created {output_dir}/test-{key}-ltl.txt")
+        write_array_to_file(dataset["input_ids"], f"{test_dir}/test-{key}-input_ids.txt")
+        print(f"created {output_dir}/test-{key}-input_ids.txt")
+        write_array_to_file(dataset["attention_mask"], f"{test_dir}/test-{key}-attn.txt")
+        print(f"created {output_dir}/test-{key}-attn.txt")
+        write_array_to_file(dataset["labels"], f"{test_dir}/test-{key}-labels.txt")
+        print(f"created {output_dir}/test-{key}-labels.txt")
+
 def generate_test_dataset(og_data, random_words, unique_characters, polysemous_words):
     
     print("Rare words \n")
@@ -119,14 +138,14 @@ def generate_test_dataset(og_data, random_words, unique_characters, polysemous_w
     print("\n\n")
 
     print("Random words (Gibberish) \n")
-    random_test = replace_phrases_with_random_words(og_data, characters=string.ascii_letters, min_length=5, max_length=20)
+    random_test = replace_phrases_with_random_words(og_data, characters=string.ascii_letters, min_length=5, max_length=8)
     printCompare(og_data, random_test)
 
 
     print("\n\n")
 
     print("Non-standard characters \n")
-    nonstd_test = replace_phrases_with_random_words(og_data, characters=string.ascii_letters + unique_characters, min_length=5, max_length=20)
+    nonstd_test = replace_phrases_with_random_words(og_data, characters=string.ascii_letters + unique_characters, min_length=5, max_length=8)
     printCompare(og_data, nonstd_test)
 
     print("\n\n")
