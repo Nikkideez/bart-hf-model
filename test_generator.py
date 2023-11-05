@@ -97,18 +97,18 @@ def write_array_to_file(data, filename="output.txt"):
         for item in data:
             file.write(item + "\n")
 
-def write_datasetDict(dataset_dict, output_dir):
+def write_datasetDict_to_txt(dataset_dict, output_dir, dir_name, dtype):
 
-    test_dir = os.path.join(output_dir, "test_datasets")
+    test_dir = os.path.join(output_dir, dir_name)
     
     if not os.path.exists(test_dir):
         os.makedirs(test_dir)
 
     for key, dataset in dataset_dict.items():
-        write_array_to_file(dataset["en"], f"{test_dir}/test-{key}-eng.txt")
-        print(f"created {output_dir}/test-{key}-eng.txt")
-        write_array_to_file(dataset["ltl"], f"{test_dir}/test-{key}-ltl.txt")
-        print(f"created {output_dir}/test-{key}-ltl.txt")
+        write_array_to_file(dataset["en"], f"{test_dir}/{dtype}-{key}-eng.txt")
+        print(f"created {output_dir}/{dtype}-{key}-eng.txt")
+        write_array_to_file(dataset["ltl"], f"{test_dir}/{dtype}-{key}-ltl.txt")
+        print(f"created {output_dir}/{dtype}-{key}-ltl.txt")
 
 def write_tok_datasetDict(dataset_dict, output_dir):
 
