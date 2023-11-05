@@ -25,6 +25,7 @@ dataset_path = "cRick/NL-to-LTL-Synthetic-Dataset"
 test_dataset_path = None
 #checkpoint = "facebook/bart-large"
 checkpoint = "facebook/bart-base"
+#checkpoint = "t5-base"
 seed=42
 report_to = "none" # set to "wandb" if you want to report to wandb. You will need to set the .env (see the repo)
 # report_to = "wandb"
@@ -91,7 +92,7 @@ tokenized_test, _,_ = preprocess_data(test_dataset, checkpoint)
 
 """ ## Model """
 
-model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, dropout=0.20)
+model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
 
 print(model.config)
 
@@ -101,8 +102,8 @@ print(model.config)
 training_args = Seq2SeqTrainingArguments(
     output_dir=output_dir,
     learning_rate=0.00007563606142800364,
-    per_device_train_batch_size=16,
-    per_device_eval_batch_size=16,
+    per_device_train_batch_size=32,
+    per_device_eval_batch_size=32,
     weight_decay=0.3,
     save_strategy="epoch",
     evaluation_strategy="epoch",
@@ -113,7 +114,8 @@ training_args = Seq2SeqTrainingArguments(
     metric_for_best_model="eval_loss",
     predict_with_generate=True,
     warmup_ratio=0.05,
-    generation_max_length=70,
+    generation_max_length=128,
+    gradient_accumulation_steps = 2,
     fp16=True,
     push_to_hub=False,
     logging_steps=1,

@@ -35,15 +35,15 @@ def load_data(dataset_format, dataset_path, seed, test_dataset_path=None):
         dataset["valid"] = train_valid["test"]
         
         # Im using the smalller test set for just debugging
-        # dataset = dataset.remove_columns("pair_type") 
-        # train_test = dataset["test"].train_test_split(test_size=0.3, seed=seed)
-        # test_valid = train_test["test"].train_test_split(test_size=0.5, seed=seed)
+        #dataset = dataset.remove_columns("pair_type") 
+        #train_test = dataset["test"].train_test_split(test_size=0.3, seed=seed)
+        #test_valid = train_test["test"].train_test_split(test_size=0.5, seed=seed)
 
-        # dataset = DatasetDict({
-        #     'train': train_test["train"],
-        #     'test': test_valid["train"],
-        #     'valid': test_valid["test"],
-        #     })
+        #dataset = DatasetDict({
+        #    'train': train_test["train"],
+        #    'test': test_valid["train"],
+        #    'valid': test_valid["test"],
+        #    })
 
     else:
         print("Dataset format unsupported. Check load_data and adjust the code manually. Refer to https://huggingface.co/docs/datasets/loading")

@@ -38,7 +38,7 @@ wandb.login()
 
 """ #### Load and Preprocess Data"""
 
-dataset = load_data(dataset_format, dataset_path, seed)
+test_dataset, dataset = load_data(dataset_format, dataset_path, seed)
 
 tokenized_dataset, data_collator, tokenizer = preprocess_data(dataset, checkpoint)
 
@@ -134,7 +134,7 @@ def train(config=None):
         tokenizer=tokenizer,
         data_collator=data_collator,
         compute_metrics=lambda eval_preds: compute_metrics(eval_preds, tokenizer),
-        callbacks=[DefaultFlowCallback,CSVLoggerCallback(output_dir), EarlyStoppingCallback(early_stopping_patience=7)]
+        callbacks=[DefaultFlowCallback,CSVLoggerCallback(output_dir), EarlyStoppingCallback(early_stopping_patience=3)]
     )
 
     # start training loop
