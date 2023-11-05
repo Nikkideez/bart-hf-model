@@ -14,27 +14,26 @@ import argparse
 load_dotenv()
 current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 target_dir = "./dump"
-output_dir = f"{target_dir}/run_{current_time}/"
-# dataset_format ="csv"
-dataset_format = "parquet"
-# dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
-dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
+dataset_format ="csv"
+# dataset_format = "parquet"
+dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
+# dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
 # test_dataset_path = "./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset
 test_dataset_path = None
 checkpoint = "facebook/bart-base"
 # checkpoint = "facebook/bart-large"
 seed=42
 report_to = "none" # set to "wandb" if you want to report to wandb. You will need to set the .env (see the repo)
-remove_underscore = True
-# report_to = "wandb"
 
 # Some parsers so you don't have to keep changing the file
 parser = argparse.ArgumentParser(description='Training Model')
-parser.add_argument('--epochs', type=int, help='Number of epochs to train')
-parser.add_argument('--checkpoint', default=checkpoint, help='Checkpoint to use (overwrites existing checkpoint)')
+parser.add_argument('--epochs', type=int, help='Number of epochs to train.')
+parser.add_argument('--checkpoint', default=checkpoint, help='Checkpoint to use (overwrites existing checkpoint).')
 parser.add_argument('--reportto', default=report_to, help='Specify if the trainer will report training metrics. Value is passed into report-to argument in trainer args.')
-parser.add_argument('--savedata', action='store_true', help='Specify whether to save the loaded dataset in a csv format')
-parser.add_argument('--smalldataset', action='store_true', help='Specify whether to save the loaded dataset in a csv format')
+parser.add_argument('--targetdir', default=target_dir, help='Override the default target directory to save the training and test data.')
+parser.add_argument('--savedata', action='store_true', help='Specify whether to save the loaded dataset in a csv format.')
+parser.add_argument('--smalldataset', action='store_true', help='Makes a smaller version of the dataset using Test. Helpful for debugging large datasets.')
+parser.add_argument('--removeunderscore', action='store_true', help='Removes underscores from the ltl dataset.')
 args = parser.parse_args()
 
 epochs = args.epochs if args.epochs is not None else int(input("Enter the number of epochs to train: "))
@@ -42,6 +41,8 @@ checkpoint = args.checkpoint
 report_to = args.reportto
 save_dataset = args.savedata
 smaller_dataset = args.smalldataset
+output_dir = os.path.join(args.targetdir, f"run_{current_time}")
+remove_underscore = args.removeunderscore
 
 """ #### Create the output dir if it does not exist """
 
