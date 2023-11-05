@@ -15,9 +15,9 @@ load_dotenv()
 current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 target_dir = "./dump"
 dataset_format ="csv"
-# dataset_format = "parquet"
-dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
-# dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
+dataset_format = "parquet"
+# dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
+dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
 # test_dataset_path = "./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset
 test_dataset_path = None
 checkpoint = "facebook/bart-base"
