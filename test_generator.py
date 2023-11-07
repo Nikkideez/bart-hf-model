@@ -42,7 +42,7 @@ def replace_phrases_with_random_words(data, random_words=None, characters=string
         # print(ltl_phrases)
         eng_phrases = {}
         for token in ltl_phrases:
-            if "_" in token:
+            if "_" in token and token not in sentence:
                 parts = token.split("_")
                 if parts[1].isdigit():
                     eng_phrase = parts[0] + " " + number_to_word(int(parts[1]))
@@ -129,30 +129,30 @@ def write_tok_datasetDict(dataset_dict, output_dir):
         write_array_to_file(dataset["labels"], f"{test_dir}/test-{key}-labels.txt")
         print(f"created {output_dir}/test-{key}-labels.txt")
 
-def generate_test_dataset(og_data, random_words, unique_characters, polysemous_words):
+def generate_test_dataset(og_data, test_subset, random_words, unique_characters, polysemous_words):
     
     print("Rare words \n")
-    rare_test = replace_phrases_with_random_words(og_data, random_words=random_words)
-    printCompare(og_data, rare_test)
+    rare_test = replace_phrases_with_random_words(test_subset, random_words=random_words)
+    printCompare(test_subset, rare_test)
 
     print("\n\n")
 
     print("Random words (Gibberish) \n")
-    random_test = replace_phrases_with_random_words(og_data, characters=string.ascii_letters, min_length=5, max_length=8)
-    printCompare(og_data, random_test)
+    random_test = replace_phrases_with_random_words(test_subset, characters=string.ascii_letters, min_length=5, max_length=20)
+    printCompare(test_subset, random_test)
 
 
     print("\n\n")
 
     print("Non-standard characters \n")
-    nonstd_test = replace_phrases_with_random_words(og_data, characters=string.ascii_letters + unique_characters, min_length=5, max_length=8)
-    printCompare(og_data, nonstd_test)
+    nonstd_test = replace_phrases_with_random_words(test_subset, characters=string.ascii_letters + unique_characters, min_length=5, max_length=20)
+    printCompare(test_subset, nonstd_test)
 
     print("\n\n")
 
     print("Contexualized (polysemous) words \n")
-    poly_test = replace_phrases_with_random_words(og_data, random_words=polysemous_words)
-    printCompare(og_data, poly_test)
+    poly_test = replace_phrases_with_random_words(test_subset, random_words=polysemous_words)
+    printCompare(test_subset, poly_test)
 
     test_dataset = DatasetDict({
         'original': og_data,

@@ -8,53 +8,62 @@ from transformers import AutoTokenizer, DataCollatorForSeq2Seq, BartTokenizer
 
 def replace_underscores(example):
     example['ltl'] = example['ltl'].replace('_', ' ')
+    example['en'] = example['en'].replace('_', ' ')
     return example
 
-def load_data(dataset_format, dataset_path, seed, test_dataset_path=None, remove_underscore=False):
+def load_data(dataset_format, dataset_path, seed, test_dataset_path=None, remove_underscore=False, split=True):
     # dataset = load_dataset("cRick/NL-to-LTL-Synthetic-Dataset")
     # dataset = load_dataset("parquet", data_files={'train': '/content/drive/MyDrive/ERP/train/0000.parquet', 'test': '/content/drive/MyDrive/ERP/test/0000.parquet'})
     # dataset = load_dataset("text", data_files={'ltl': '/content/drive/MyDrive/ERP/data_src_combined.txt', 'en': '/content/drive/MyDrive/ERP/data_tar_combined.txt'})
+    test_subset = None
+
     if dataset_format == None:
         dataset = load_dataset(dataset_path)
+    elif dataset_format == "disk":
+        dataset = load_from_disk(dataset_path)
     else:
         dataset = load_dataset(dataset_format, data_files=dataset_path)
      
-    
-    print(dataset)
-
+    print("\nDataset Loaded \n")
+    print(dataset, "\n")
 
     """ #### Split the data into Train, Valid and Test """
 
-    if dataset_format == "csv":
-        train_test = dataset["train"].train_test_split(test_size=0.3, seed=seed)
-        test_valid = train_test["test"].train_test_split(test_size=0.5, seed=seed)
+    if split:
+        if dataset_format == "csv":
+            train_test = dataset["train"].train_test_split(test_size=0.3, seed=seed)
+            test_valid = train_test["test"].train_test_split(test_size=0.5, seed=seed)
 
-        dataset = DatasetDict({
-            'train': train_test["train"],
-            'test': test_valid["train"],
-            'valid': test_valid["test"],
-            })
-    elif dataset_format == "parquet" or dataset_format == None:
-        train_valid = dataset["train"].train_test_split(test_size=0.1, seed=seed)
+            dataset = DatasetDict({
+                'train': train_test["train"],
+                'test': test_valid["train"],
+                'valid': test_valid["test"],
+                })
+        elif dataset_format == "parquet" or dataset_format == None:
+            train_valid = dataset["train"].train_test_split(test_size=0.1, seed=seed)
 
-        dataset["train"] = train_valid["train"]
-        dataset["valid"] = train_valid["test"]
-    else:
-        print("Dataset format unsupported. Check load_data and adjust the code manually. Refer to https://huggingface.co/docs/datasets/loading")
+            dataset["train"] = train_valid["train"]
+            dataset["valid"] = train_valid["test"]
+        else:
+            print("Dataset format unsupported. Check load_data and adjust the code manually. Refer to https://huggingface.co/docs/datasets/loading")
 
-    print(dataset)
-
-    # Remove underscores
-    if remove_underscore:
-        print("Removing underscores")
-        dataset = dataset.map(lambda examples: {'ltl': [s.replace('_', ' ') for s in examples['ltl']]}, batched=True)
+        print("\nSplit Dataset \n")
+        print(dataset, "\n")
 
     if test_dataset_path:
         test_dataset = load_from_disk(test_dataset_path)
     else:
         test_dataset = None
+        # Save the test dataset with underscores to generate the test sets 
+        test_subset = dataset["test"]
 
-    return test_dataset, dataset
+    # Remove underscores
+    if remove_underscore:
+        print("Removing underscores")
+        dataset = dataset.map(lambda examples: {'ltl': [s.replace('_', ' ') for s in examples['ltl']], 'en': [s.replace('_', ' ') for s in examples['en']]}, batched=True)
+
+
+    return test_dataset, test_subset, dataset
 
 def create_smaller_dataset(dataset, seed=42):
     # Splits data into a new test, train and eval dataset 

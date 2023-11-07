@@ -1,53 +1,79 @@
-import wandb
+"""
+    Effectively the same as train-model.py, except you load a model that was already trained
+"""
+# import wandb
+import datetime
 from dotenv import load_dotenv
-from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer, DefaultFlowCallback
+from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainer, DefaultFlowCallback
 from process_data import *
-from metrics import *
+from metrics import compute_metrics, CSVLoggerCallback, evaluate_datadict
 from test_generator import *
+from training_args import get_training_args
+import argparse
 
-# same as the tain-model.py, just skips the training
 """ #### Set variables """
 
 load_dotenv()
 current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-# target_dir = "/data/ndeo/bart/hypersearch"
 target_dir = "./dump"
-output_dir = f"{target_dir}/inference_{current_time}/"
-dataset_format="csv"
-dataset_path="./data/CECW-en-ltl-dataset(combined).csv" # Test datadata which new test sets are also generated with if test_dataset_path = None
-test_dataset_path="./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset
-checkpoint = "./dump/run_2023-11-02_22-59-23/checkpoint-6075" # Loading a trained model
+dataset_format ="csv"
+# dataset_format = "parquet"
+# dataset_format = None
+# dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
+dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
+# test_dataset_path = "./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset
+test_dataset_path = None
+checkpoint = "facebook/bart-base"
+# checkpoint = "facebook/bart-large"
 seed=42
-report_to = "none"
+report_to = "none" # set to "wandb" if you want to report to wandb. You will need to set the .env (see the repo)
+epochs = 1
+
+# Some parsers so you don't have to keep changing the file
+parser = argparse.ArgumentParser(description='Training Model')
+parser.add_argument('--checkpoint', default=checkpoint, help='Checkpoint to use (overwrites existing checkpoint).')
+parser.add_argument('--targetdir', default=target_dir, help='Override the default target directory to save the training and test data.')
+parser.add_argument('--savedata', action='store_true', help='Specify whether to save the loaded dataset in a csv format.')
+parser.add_argument('--smalldataset', action='store_true', help='Makes a smaller version of the dataset using Test. Helpful for debugging large datasets.')
+parser.add_argument('--removeunderscore', action='store_true', help='Removes underscores from the ltl dataset.')
+parser.add_argument('--nosplit', action='store_true', help='Whether to split the data')
+args = parser.parse_args()
+
+# epochs = args.epochs if args.epochs is not None else int(input("Enter the number of epochs to train: "))
+checkpoint = args.checkpoint
+# report_to = args.reportto
+save_dataset = args.savedata
+smaller_dataset = args.smalldataset
+output_dir = os.path.join(args.targetdir, f"inference_{current_time}")
+remove_underscore = args.removeunderscore
+nosplit = not args.nosplit
 
 """ #### Create the output dir if it does not exist """
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
-""" #### Log into WANDB """
-# if you set report_to="wanbd, then results are logs to wandb"
-if report_to != "none":
-    # Note: Environment variables are loaded from .env through load_dotenv()
-    # Just make sure its in the same directory
-    wandb.login()
 
 """ #### Load and Preprocess Data """
 
-test_dataset, dataset = load_data(dataset_format, dataset_path, seed, test_dataset_path=test_dataset_path)
+test_dataset, test_subset, dataset = load_data(dataset_format, dataset_path, seed, test_dataset_path=test_dataset_path, remove_underscore=remove_underscore, split=nosplit)
+
+if smaller_dataset:
+    dataset = create_smaller_dataset(dataset["test"])
 
 tokenized_dataset, data_collator, tokenizer = preprocess_data(dataset, checkpoint)
 
+if save_dataset:
+    write_datasetDict_to_txt(dataset, output_dir, "train_dataset", "train")
+    dataset.save_to_disk(output_dir + "/train_dataset.hf")
 
 """ #### Generate Additional Test Data """
 
 if not test_dataset:
-    
     # Generate a new test dataset
-    test_dataset = generate_test_dataset(dataset["test"], random_words, unique_characters, polysemous_words)
-
+    test_dataset = generate_test_dataset(dataset["test"], test_subset, random_words, unique_characters, polysemous_words)
     # Write in txt format
-    write_datasetDict(test_dataset, output_dir)
+    write_datasetDict_to_txt(test_dataset, output_dir, "test_dataset", "test")
     # Write in an HF DataDict format if you want to easily load these again later
     test_dataset.save_to_disk(output_dir + "/test_dataset.hf")
 
@@ -56,33 +82,17 @@ print(test_dataset)
 tokenized_test, _,_ = preprocess_data(test_dataset, checkpoint)
 
 
-""" ## Load Model """
+""" ## Model """
 
+# model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, dropout=0.25)
 model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
 
 print(model.config)
 
 
-training_args = Seq2SeqTrainingArguments(
-    output_dir=output_dir,
-    learning_rate=0.00001624749612285061,
-    per_device_train_batch_size=32,
-    per_device_eval_batch_size=32,
-    weight_decay=0.4,
-    save_strategy="epoch",
-    evaluation_strategy="epoch",
-    logging_strategy="epoch",
-    num_train_epochs=1,
-    load_best_model_at_end=True,
-    save_total_limit=3,
-    metric_for_best_model="eval_spot_acc",
-    predict_with_generate=True,
-    warmup_ratio=0.05,
-    fp16=True,
-    push_to_hub=False,
-    logging_steps=1,
-    report_to=report_to
-)
+""" # Train the model """
+
+training_args = get_training_args(checkpoint, output_dir, epochs, report_to)
 
 trainer = Seq2SeqTrainer(
     model=model,
@@ -98,10 +108,5 @@ trainer = Seq2SeqTrainer(
 # trainer.train()
 
 """ # Predict test dataset """
-# test_predictions = trainer.predict(tokenized_dataset["test"])
-# print(test_predictions.metrics)
-# write_test_metrics_to_csv(test_predictions.metrics, output_dir)
-
-# tokenized_test["original"] = tokenized_dataset["test"]
 
 evaluate_datadict(tokenized_test, trainer, output_dir, tokenizer)

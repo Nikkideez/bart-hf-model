@@ -1,0 +1,56 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "parquet",
+  "dataset_size": 50345990,
+  "description": "",
+  "download_checksums": {
+    "/home/nikx/Documents/Projects/capstone/bart/model/./data/hf-data/train/0000.parquet": {
+      "num_bytes": 14272201,
+      "checksum": null
+    },
+    "/home/nikx/Documents/Projects/capstone/bart/model/./data/hf-data/test/0000.parquet": {
+      "num_bytes": 959688,
+      "checksum": null
+    }
+  },
+  "download_size": 15231889,
+  "features": {
+    "pair_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ltl": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "en": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 65577879,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 47824937,
+      "num_examples": 240000,
+      "dataset_name": "parquet"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 2521053,
+      "num_examples": 15000,
+      "dataset_name": "parquet"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
