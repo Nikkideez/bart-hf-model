@@ -2,3 +2,6 @@
 .env
 /wandb/
 /__pycache__/
+/data/hf_no_und/train_dataset.hf/train/
+/data/hf_und/train_dataset.hf/train/
+/data/cecw-mod/train_dataset.hf/train/
