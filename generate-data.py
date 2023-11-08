@@ -20,10 +20,10 @@ load_dotenv()
 current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 target_dir = "./dump"
 # dataset_format = None
-# dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
-# dataset_format ="csv"
-dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
-dataset_format = "parquet"
+dataset_path ="./data/CECW-en-ltl-dataset(combined).csv"
+dataset_format ="csv"
+#dataset_path = {'train': './data/hf-data/train/0000.parquet', 'test': './data/hf-data/test/0000.parquet'}
+#dataset_format = "parquet"
 # dataset_path = "./dump/test-gen-2023-11-07_11-36-19/train_dataset.hf"
 # dataset_format = "disk"
 # test_dataset_path = "./data/test_dataset.hf" # set the path to None if you want to generate a new test dataset

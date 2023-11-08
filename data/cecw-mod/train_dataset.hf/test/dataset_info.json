@@ -1,0 +1,42 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 629817,
+  "description": "",
+  "download_checksums": {
+    "/data/ndeo/bart/bart-hf-model/./data/CECW-en-ltl-dataset(combined).csv": {
+      "num_bytes": 600526,
+      "checksum": null
+    }
+  },
+  "download_size": 600526,
+  "features": {
+    "ltl": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "en": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1230343,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 629817,
+      "num_examples": 6169,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

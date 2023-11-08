@@ -1,0 +1,926 @@
+navigate to the second floor through the red room .
+avoid the orange room until after you 've gone to the green room .
+avoid the green room until passing landmark three .
+always avoid going to landmark one through the purple room
+go to the red room through the second floor
+avoid landmark two until you go to the green room .
+always avoid the purple room while navigating to the third floor .
+go to the blue room through the third floor .
+avoid the green room and go to the third floor . if you reached the third floor then you may go to the green room , or just stay on the third floor .
+go up to the third floor without going to landmark one .
+go to the blue room via landmark two .
+go to the yellow room while always avoiding the green room
+avoid the green room until going to landmark two .
+travel through the green room then go to the purple room .
+travel through the purple room then go to the red room .
+go through the green room , then make your way to landmark one .
+go to the red room , then go to the first floor .
+navigate to the third floor but do n't ever go to landmark three .
+go to the red room avoiding landmark three. if you reached the red room then you may go to landmark three .
+go to landmark one through the blue room .
+always avoid landmark one and navigate to the orange room .
+go to the green room and then navigate to the purple room .
+do n't go into the orange room until going to landmark one
+head to the red room , but make sure to go through the orange room first .
+go to landmark one and remain within the blue room .
+go to the second floor avoiding landmark one .
+go to the yellow room by touching the green room .
+avoid the yellow room and go to the third floor . if you reached the third floor then you may go to the yellow room , or just stay on the third floor .
+move to landmark three without leaving the second floor .
+always avoid the blue room and go to landmark two .
+go to landmark three , then go to landmark one
+always avoid the green room to navigate to landmark one .
+go to the yellow room and avoid the orange room .
+avoid the red room , navigate to the green room .
+go through the second floor to the red room
+go through landmark two and navigate to the yellow room .
+navigate to the yellow room after going to the second floor .
+move through landark one to landmark two .
+go to one st floor after threerd floor
+first navigate to the purple room , then make your way to the green room .
+visit the yellow room and then move to the third floor .
+go to the purple room by avoiding landmark two. if you reached the purple room , then you can proceed to landmark two .
+go to landmark one then go to the orange room .
+go through landmark three before going to the third floor .
+go to the blue room while avoiding landmark two
+head to the purple room .
+go to landmark one but always avoid landmark three .
+always go to landmark three before navigating to the orange room .
+avoid landmark two and go to the third floor .
+stay in the blue room and go to landmark two .
+always avoid landmark three and navigate to the first floor .
+go to the onest floor through landmark three
+avoid the blue room until you navigate to landmark three .
+avoid the green room and travel to the yellow room .
+go to landmark one avoiding the blue room . then go to the blue room or stay on landmark one .
+navigate to landmark three through the blue room .
+go to the threerd floor but avoid landmark one .
+while always avoiding the purple room , go to landmark three .
+navigate to the second floor but do n't ever go to landmark one .
+avoid the blue room before you navigate to the first floor .
+go to the first floor but avoid landmark one .
+stay away from the green room and go to landmark three .
+go to the first floor , then go to the yellow room .
+navigate to the second floor then continue to landmark one .
+proceed to the green room by going through the orange room .
+go through the green room then to the first floor .
+first navigate to landmark three , then go to landmark two .
+proceed to landmark one , but never move outside of the green room .
+go to landmark two avoiding the purple room . then go to the purple room or stay on landmark two .
+avoid the first and third floor and go to landmark two .
+always go to landmark two before navigating to the purple room .
+navigate to the first floor , avoiding landmark one .
+go to the blue room and if you have reached the blue room you may proceed to the yellow room or stay in the blue room .
+go to the onest floor through the green room
+go to landmark three and then to landmark one .
+avoid landmark three until navigating to the green room .
+head to the green room , but make sure to go through the red room first .
+go to the first floor by first going through the yellow room .
+avoid the green room and go to landmark three
+go to the purple room , avoiding landmark three .
+go to the green room while always avoiding the yellow room
+go to landmark two before navigating to the first floor .
+move to the second floor , travelling through the orange room .
+advance to landmark three but always avoid the blue room .
+navigate from the second floor to the purple room .
+go to landmark two without going to landmark three
+always go through the orange room before going to landmark three .
+stay on the first floor while going to the orange room .
+navigate to the orange room through the green room .
+go to the purple room by avoiding landmark one and then stay in the purple room or continue to landmark one
+go through the purple room first , then go to the red room .
+avoid the purple room until you go to the red room .
+go to the purple room by first going through the yellow room .
+go to the yellow room , then go to landmark three .
+navigate to the first floor before going to landmark three .
+go to the second floor while always avoiding the orange room .
+remain on the second floor while going to the orange room .
+navigate to the purple room after going to the second floor .
+avoid the orange room , navigate to the green room .
+go to the third floor . if you reached the third floor then you may go to the green room .
+go through landmark two and navigate to the red room .
+go to the purple room without touching landmark one .
+go to the first floor via the red room .
+go to the first floor then go to the green room
+go to the blue room and then go to landmark two .
+stay in the yellow room and go to landmark two and stop
+avoid the red room and go to landmark three. if you reached the green room , you can now go to the red room or stay on landmark three .
+avoid the purple room until going through landmark three .
+go to or through the second floor always avoid going through the red room
+avoid the first floor and the third floor and go to landmark three .
+go through the second floor to landmark three .
+move to the green room without leaving the second floor .
+go to landmark three through landmark one
+always avoid the red room , go to the second floor .
+go to or through the orange room . always avoid going to the orange room through landmark one
+go to landmark one by only navigating within the purple room .
+go to the yellow room without ever leaving the third floor .
+go from the second floor to the purple room .
+navigate to the orange room always avoiding the green room .
+avoid the green room before you navigate to the first floor .
+go to the red room without touching landmark one .
+go from the third floor to the yellow room .
+move to the third floor , travelling through landmark two .
+first go to landmark three , then go to the red room .
+avoid landmark three and proceed to landmark one
+always avoid the green room , go to landmark two .
+go to the second floor avoiding the yellow room . if you reached the second floor you can stay there , or head to the yellow room .
+navigate to the yellow room through the purple room .
+go to or through the third floor always avoid going through the green room
+go to onest floor . then go directly to landmark three
+avoid the yellow room on your way to the orange room . once you get to the orange room you can to the yellow room .
+go to landmark one while always avoiding the green room
+avoid the purple room until after navigating to the green room .
+avoid the blue room until reaching landmark two .
+go to landmark three , then go to landmark two
+go to the red room through the purple room .
+stay in the yellow room and go to landmark one .
+navigate to the green room always avoiding the purple room .
+go through landmark two and then to the onest floor .
+without leaving the orange room go to landmark three .
+go to landmark one and then the purple room
+stay in the green room to get to landmark two .
+go through landmark two to the first floor .
+go to the orange room , avoiding landmark one .
+go to the third floor via landmark three .
+go through the blue room before navigating to landmark three .
+advance to landmark one but always avoid the green room .
+avoid landmark three until navigating to landmark two .
+first navigate to the blue room , then make your way to the orange room .
+first go to landmark two , then go to the orange room .
+always avoid landmark two and go to the purple room .
+avoid landmark two until you pass through purple room .
+go to the first floor , then go to the blue room .
+go to the purple room without touching landmark two .
+go to the blue room avoiding the orange room . only if you reached the blue room then you may proceed to the orange room .
+go to the second floor and avoid the orange room .
+navigate to the orange room staying on the second floor .
+move to the second floor , travelling through the purple room .
+navigate to the purple room always avoiding the blue room .
+avoid the orange room and travel to the green room .
+always avoid landmark one and go to the yellow room .
+go to landmark two and then go to the first floor .
+navigate to the green room by passing through the third floor .
+always proceed to landmark one and then to the second floor .
+avoid the orange room until you enter the red room .
+first move to landmark two then navigate to the green room .
+go to the third floor . if you reached the third floor then you may go to the purple room .
+avoid the red room until you navigate to the first floor .
+go to the third floor by going through landmark three .
+always avoid landmark three and go to the yellow room .
+navigate to landmark two then continue to the orange room .
+move to the first floor by going through the red room
+go to landmark two but do not enter the green room first .
+go to the blue room avoiding landmark three .
+go to landmark one before going to the yellow room .
+avoid the orange room until you enter the blue room .
+advance to landmark two but always avoid the purple room .
+go to the second floor , then go to the orange room
+go to landmark two through the blue room
+got to landmark one through the green room .
+go to landmark three through the green room .
+stay in the purple room and go to landmark three
+avoid landmark one until you have passed through landmark three
+go to the yellow room by first going through landmark one .
+go to the third floor while always avoiding the blue room .
+go to landmark two , avoid the red room until you have been to the landmark .
+avoid the orange room and go to landmark two
+avoid landmark three until you pass through green room .
+go to the yellow room by first visiting landmark three .
+go to landmark one from the third floor only .
+stay in the yellow room to navigate to landmark three .
+go through landmark three to the purple room .
+go to the second floor and then go to the blue room .
+go to the third floor then go to the yellow room
+go to the purple room before going to the orange room .
+go to the red room through the green room
+go to the second floor while always avoiding the red room
+stay in the purple room and go to landmark one
+go to the orange room without ever leaving the third floor .
+always avoid the red room and go to the yellow room .
+first go to to landmark two then go to the blue room .
+move to the first floor without entering the orange room .
+avoid the purple room until after you 've gone to the yellow room .
+go to the blue room and then go to the red room .
+always avoid the orange room to navigate to landmark two .
+go to the second floor , then go to the red room
+go to the first floor avoiding the purple room . if you get to first floor you can then proceed to the purple room
+always avoid going to landmark three through the blue room
+go to landmark one and then go to the third floor .
+go to the third floor , then go to the second floor .
+avoid the yellow room and travel to the purple room .
+go to landmark one , then up to landmark three .
+proceed to the purple room without going to third floor  .
+go to the third floor and then head to landmark three .
+go to the onest floor
+go through the third floor to the blue room
+stay on the second floor to get to landmark one .
+go to the purple room without going to the orange room .
+go through the orange room before navigating to landmark two .
+while remaining within the yellow room , go to landmark three .
+go to landmark three without leaving blue room .
+always avoid the purple room , go to landmark three .
+remain on the onest floor and go directly to the blue room .
+move towards orange room and then to first floor .
+go to the red room while staying on the second floor .
+head to the third floor .
+go to purple room and then to green room
+remain on the onest floor and go directly to the green room .
+advance to landmark two but always avoid the green room .
+go to landmark two but always avoid landmark one .
+go to the red room , then go to landmark two .
+go to landmark one , then down to the purple room .
+go to landmark two without leaving purple room .
+avoid landmark one until after the red room
+avoid landmark three until you navigate to landmark one .
+go to the green room without going to the red room
+without leaving the first floor go to the blue room .
+go to landmark three before navigating to the third floor .
+go to the purple room through the yellow room .
+go to landmark three by going through landmark one
+avoid the yellow room until you go to the red room .
+navigate to the orange room then continue to landmark three .
+avoid the blue room and travel to the red room .
+navigate to the orange room , always avoiding the purple room .
+go to the yellow room , then proceed to landmark three .
+go to the blue room without going to the yellow room . if you reached the blue room , now you can go to the yellow room .
+go directly to landmark two by only moving in the green room .
+avoid landmark two until navigating to the green room .
+always avoid landmark one , and navigate to landmark two .
+go to the yellow room by first going through the red room .
+go to landmark two without leaving yellow room .
+go to the first floor and then go to the green room .
+head to the blue room and then head to the third floor .
+travel to landmark two .
+navigate to the orange room by passing through the second floor .
+go through the blue room , then make your way to landmark one .
+travel through the purple room then go to the green room .
+go to the red room avoiding landmark two .
+get to landmark two , while avoiding landmark one
+visit the green room and then move to the first floor .
+visit the third floor and then proceed to the first floor .
+go through the second floor to landmark one .
+go to the yellow room by first going through the purple room .
+move to the third floor without entering the green room .
+go to the second floor without going to the green room .
+go to landmark three but remain on the first floor .
+avoid the purple room until navigating to the orange room .
+go to the first floor but avoid landmark two .
+always avoid the yellow room to navigate to landmark one .
+go to the first floor but never go to the blue room .
+go to the purple room by touching the green room .
+avoid the red room and go to the third floor . if you reached the third floor then you may go to the red room , or just stay on the third floor .
+go to the orange room and then navigate to the yellow room .
+go to landmark one without going to third floor .
+navigate to landmark one through the purple room .
+always avoid landmark three and navigate to the red room .
+avoid the yellow room and go to landmark one
+move to the third floor , travelling through landmark one .
+always pass landmark one to get to level one .
+go through landmark one and navigate to the red room .
+go to landmark two then go to the orange room .
+always avoid the purple room and go to the red room .
+go to the onest floor through the threerd floor
+move to landmark two and then proceed to the green room .
+avoid the orange room until you enter the green room .
+avoid landmark one and go to landmark three .
+go to the green room and then navigate to the red room .
+avoid landmark one until reaching the red room .
+move to landmark one after moving to the first floor .
+navigate to landmark two , always avoiding landmark three .
+always avoid landmark one and go to the green room .
+go to the third floor through landmark three .
+go to the red room by first going through landmark one .
+avoid landmark two and go to the first floor .
+go to the green room without going to the blue room
+always pass landmark two to get to level one .
+remain on the third floor and move to the green room .
+go through the purple room to the green room .
+go from the second floor to the red room .
+go to the yellow room by touching the orange room .
+go to the blue room while always avoiding landmark two
+travel through the yellow room then go to the purple room .
+go to the orange room without going to another floor .
+always go through the yellow room before going to landmark one .
+go to landmark three through the onest floor
+always avoid landmark three and go to the third floor .
+go to landmark one by only navigating within the yellow room .
+always go through the yellow room to get to the purple room .
+go through the green room to the red room .
+move to the second floor without entering the red room .
+go to the orange room by touching the yellow room .
+head to landmark two after going to the red room .
+go to the yellow room avoiding the red room . only if you reached the yellow room then you may proceed to the red room .
+go through the red room before going to the purple room .
+navigate to the first floor , avoiding landmark three .
+go to the third floor then move to the blue room .
+do not go into the red room until going to landmark two
+do not navigate away from the third floor and go to the red room .
+always avoid the red room and go to landmark three .
+avoid landmark three until reaching the blue room .
+go from the yellow room to the green room
+always go through the orange room and then to landmark one .
+avoid the orange room on your way to the yellow room . once you get to the yellow room you can to the orange room .
+go to landmark two and always avoid the green room
+go from the second floor to the purple room
+avoid landmark three until going to the purple room .
+go to landmark one then go to the purple room .
+go through the yellow room to the orange room .
+stay on the first floor and move to landmark one .
+go to the second floor while always avoiding the purple room
+go through the orange room to the yellow room .
+go to landmark three without leaving the blue room .
+navigate to landmark two through the orange room .
+remain on the onest floor and go directly to the purple room .
+go to the orange room , then proceed to landmark one .
+avoid the purple room until going to the red room .
+travel to the onest floor and then go to landmark two .
+go to the second floor after going to the first floor .
+avoid the yellow room and navigate to the orange room .
+go to the third floor , and then go to the second floor .
+go to landmark one , then down to the yellow room .
+avoid the red room until landmark two .
+go to landmark one through the onest floor
+go to landmark three and always avoid the orange room
+go to landmark two and then the red room
+go to the green room , then go to the third floor .
+go from the first floor to the blue room
+go to the red room and if you have reached the red room you may proceed to the purple room or stay in the red room .
+go to the yellow room without going to the red room . if you reached the yellow room , now you can go to the red room .
+move to landmark two but avoid landmark three .
+head to the red room and then head to the second floor .
+go to the third floor and avoid the yellow room .
+always go through the blue room before going to landmark two .
+go through the third floor to the green room .
+go to the green room without going through the purple room .
+avoid the yellow room and navigate to the red room .
+go to the landmark three before going to landmark one
+go to the second floor and then go to the yellow room .
+avoid landmark one and go to the yellow room .
+always avoid landmark one and navigate to landmark three .
+go to the green room without going to the orange room .
+go to the second floor then move to the blue room .
+always avoid the green room and navigate to the second floor .
+stay in the orange room and go to landmark one .
+move to the yellow room and then move to landmark two .
+go through the red room to the purple room .
+always go to landmark one before navigating to the blue room .
+do directly to landmark two without leaving the green room .
+navigate through landmark three and go to the green room .
+avoid the green room until you enter the purple room .
+move to the second floor without entering the green room .
+go to landmark three through the yellow room
+stay in the blue room and go to landmark three .
+go to the red room by first going through landmark three .
+navigate to the red room but never go to the orange room .
+go to the green room only through the onest floor
+avoid the yellow room until going to the third floor .
+go to the third floor and then go to the orange room .
+go to landmark one and then go to the orange room .
+go to the red room and then go to the purple room .
+avoid the first floor and the third floor and go to landmark two .
+stay on the second floor and go to the green room .
+stay in the green room and go to landmark two and stop
+go to the orange room through landmark one
+go to the red room but avoid landmark three. if you reached to the red room then you can head to landmark three or stay put .
+navigate to the orange room but never go to the green room .
+go to landmark two before navigating to the third floor .
+first go to the purple room and then go to landmark two .
+avoid the red room until passing landmark three .
+navigate to the red room , always avoiding the orange room .
+navigate to the third floor before going to the yellow room .
+go through the purple room to the yellow room .
+go to the green room without touching landmark one .
+navigate to the blue room then continue to landmark two .
+go to the green room , then go to the second floor .
+go to the yellow room and avoid the purple room .
+go to the first floor , then head to the second floor .
+go from the third floor to landmark three .
+go to the blue room , then go to the third floor .
+avoid the green room , navigate to the yellow room .
+go to the red room without going through the purple room .
+go through the red room to landmark two .
+head to the yellow room and then head to the second floor .
+without leaving the red room go to landmark one .
+go to the second floor but do not go through the green room first .
+proceed to landmark two , but never move outside of the orange room .
+navigate through landmark three and go to the purple room .
+go to the purple room without going to the green room . if you reached the purple room , now you can go to the green room .
+go to the onest floor through the green room
+go to the first floor . if you reached the first floor then you may go to the purple room .
+avoid landmark one and move into the yellow room .
+go to the orange room without going to landmark one .
+go to the second floor , then navigate to the green room .
+navigate to the purple room always avoiding the green room .
+go to landmark three while always avoiding the red room .
+go to the second floor but avoid the green room .
+go to the orange room while always avoiding the purple room
+go to landmark two but do not first go through the yellow room .
+go to landmark three through the blue room .
+visit the second floor and then proceed to the first floor .
+always go to landmark two before navigating to the green room .
+navigate to the second floor via the red room .
+go to the yellow room while avoiding the orange room and if you have reached the yellow room then you can go to the orange room .
+from the first floor , navigate to the yellow room .
+move to the red room and then the green room .
+without leaving the blue room go to landmark two .
+go to landmark one through the second floor .
+go to the orange room without going to the yellow room
+go to the second floor , then go to the red room
+go to landmark three , avoid the red room until you have been to the landmark .
+avoid landmark three and go to the second floor .
+pass through the blue room on your way to the third floor .
+always avoid the green room and go to the purple room .
+go through the green room before going to landmark two
+go to the yellow room without ever leaving the second floor .
+go to the first floor through the blue room .
+get to landmark two , while avoiding landmark three
+go to the purple room and then navigate to the yellow room .
+always avoid going to landmark three through the green room
+without leaving the second floor go to the yellow room .
+go to the red room through the second floor .
+go to the second floor but avoid the orange room .
+move to the first floor , travelling through the purple room .
+go to the orange room and go down to the onest floor .
+go up to the third floor without going to landmark two .
+avoid landmark two until you go to the purple room .
+go to landmark three before going to the orange room .
+go to landmark three while staying on the first floor .
+navigate through landmark two and go to the green room .
+head to the blue room but first go to the second floor .
+go to the purple room by first going through landmark one .
+navigate to the second floor via the orange room .
+go to landmark two through the onest floor
+go from second floor to yellow room .
+avoid the blue room until landmark two .
+move to landmark one without entering the purple room . then you may stay at landmark one or go to the purple room .
+get to landmark one , while avoiding landmark three
+without leaving the green room go to landmark two .
+go to the yellow room while always avoiding the blue room
+stay on the first floor and move to landmark two .
+always avoid the purple room and go to landmark one .
+go to the purple room by first going through the orange room .
+avoid going through landmark three until you go through the green room .
+avoid the green room
+go to the yellow room , then go to the green room .
+go to the first floor while always avoiding the red room .
+go to the yellow room only through the onest floor
+from the first floor , navigate to the orange room .
+go to landmark three but always avoid landmark one .
+stay on the second floor and go to the purple room .
+got to landmark three through the green room .
+avoid landmark three and move into the green room .
+go to landmark three by only stepping in the purple room .
+go to the blue room by avoiding landmark three and then stay in the blue room or continue to landmark three
+go to the purple room , then go to landmark two .
+go to the orange room through landmark three
+navigate to the yellow room always avoiding the red room .
+go to the purple room by avoiding landmark two and then stay in the purple room or continue to landmark two
+move to the purple room but ensure to go to the second floor first .
+go to the orange room while always avoiding landmark three
+always avoid the red room while navigating to the first floor .
+avoid landmark three until going to the blue room .
+move to the green room and then move to landmark one .
+go to the third floor by going through landmark one .
+go to the third floor and avoid the red room .
+avoid landmark three until you go to the red room .
+avoid landmark one and go to the second floor .
+go to the yellow room without ever leaving the first floor .
+go to the blue room avoiding landmark three. if you reached the blue room then you may go to landmark three .
+go to blue room and then to green room
+always avoid landmark two and navigate to the second floor .
+go to the blue room , then go to landmark three .
+first go to to landmark one then go to the red room .
+go through the second floor to the yellow room
+go to the second floor via the orange room .
+go to landmark two and then the green room
+go to the third floor but never go to the purple room .
+go to landmark one .
+without stepping outside of the blue room , go to landmark one .
+avoid the yellow room and go to the second floor . if you reached the second floor then you may go to the yellow room , or just stay on the second floor .
+go to landmark one after navigating to the first floor .
+go to the second floor by first going through the purple room .
+avoid the red room until after navigating to the green room .
+move to the orange room and then the green room .
+go to the red room , then go to the third floor .
+avoid the green room until landmark three .
+go to the red room and then navigate to the orange room .
+avoid landmark two and go to the red room .
+go to purple room and then to yellow room
+navigate to the orange room staying on the third floor .
+go to the second floor via landmark three .
+avoid the yellow room and go to landmark three
+go to or through the first floor always avoid going through the purple room
+avoid the orange room until reaching landmark two .
+go to the second floor while always avoiding the blue room
+got to landmark three through the green room .
+navigate to the orange room after going to the first floor .
+move to the purple room then continue to the red room .
+go to landmark one but remain on the first floor .
+navigate to landmark one then continue to the red room .
+go to landmark one and then go to the blue room .
+go to the red room before going to the purple room .
+go through the second floor and navigate to the purple room .
+navigate to the second floor then continue to landmark two .
+go to or through the yellow room always avoid going to the yellow room through the purple room
+avoid the red room and travel to the yellow room .
+avoid landmark two until after the red room
+from the second floor , navigate to the yellow room .
+go to the red room without ever leaving the first floor .
+move to landmark one , but go through the orange room first .
+go through the blue room to the third floor .
+navigate to the blue room staying on the third floor .
+remain on the second floor and move to the yellow room .
+go from onest floor to landmark three .
+without leaving the blue room go to landmark one .
+first go to to landmark one then go to the green room .
+always avoid the orange room and go to landmark two .
+while always avoiding the yellow room , go to landmark two .
+go through the first floor and navigate to the red room .
+go to the first floor but do not go through the blue room first .
+stay on the first floor and go to the green room .
+avoid going through landmark one until you go through the green room .
+avoid the blue room and go to landmark two
+go from the orange room to the red room
+go to landmark one and always avoid the orange room
+move to anywhere on the third floor , then move to anywhere on the first floor .
+go to the purple room without going to the blue room .
+stay on the third floor while navigating to landmark three .
+first move to landmark two then navigate to the orange room .
+go through the green room before going to landmark two
+avoid the orange room until after you 've gone to the purple room .
+go through landmark two and navigate to the orange room .
+proceed to the orange room without going to second floor .
+go through the first floor to the blue room .
+go to the yellow room , avoiding landmark three .
+go to the first floor by first going through the orange room .
+navigate to the first floor always avoiding the yellow room .
+go to the first floor then the second floor .
+navigate to the second floor always avoiding the blue room .
+go to the red room through the purple room
+always avoid the orange room while navigating to the third floor .
+navigate to the first floor before going to the purple room .
+pass through the yellow room before going to the third floor .
+always avoid the green room , go to the first floor .
+go to the first floor after you go to the second floor .
+stay on the second floor while navigating to landmark one .
+avoid the blue room until landmark three .
+go to a spot in the orange room , but do n't touch landmark three .
+visit landmark two but do n't leave the first floor .
+go to the second floor and then go to the red room .
+move to the purple room and then the red room .
+avoid the red room and go to the first floor . if you reached the first floor then you may go to the red room , or just stay on the first floor .
+avoid the purple room on your way to the red room . once you get to the red room you can to the purple room .
+go through the green room before going to landmark three
+do directly to landmark two without leaving the orange room .
+pass through the blue room on your way to the first floor .
+avoid the green room until after going to the third floor .
+always avoid the blue room , go to landmark two .
+navigate to the green room after going to the second floor .
+avoid the green room until you go to the blue room .
+navigate to the blue room then continue to landmark one .
+from the second floor , navigate to the purple room .
+go through landmark one before going to the red room .
+go to landmark three before going to landmark two .
+avoid the green room and go to the red room .
+avoid the purple room until after navigating to the orange room .
+navigate to the purple room .
+avoid the red room until you navigate to landmark one .
+always avoid the orange room and navigate to the second floor .
+go to landmark two while always avoiding the yellow room .
+avoid the red room until navigating to the purple room .
+go to the red room by first going through the green room .
+go to landmark two always avoiding the yellow room .
+go to the green room , then go to the orange room .
+avoid the red room until you enter the blue room .
+move to the blue room first then travel to landmark two .
+first navigate to the green room , then make your way to the yellow room .
+go to landmark three always avoiding the orange room .
+navigate to the second floor via the yellow room .
+avoid the orange room
+always avoid the purple room to navigate to landmark one .
+avoid the purple room , navigate to the green room .
+go through landmark one before going to the first floor .
+go to landmark three then go to the red room .
+do not navigate away from the first floor and go to the purple room .
+go to landmark one only through the second floor
+go directly to landmark one by only moving in the yellow room .
+go to the yellow room only through the onest floor
+go to the purple room avoiding the green room . only if you reached the purple room then you may proceed to the green room .
+avoid the blue room until reaching the third floor .
+first go to to landmark three then go to the orange room .
+go to the purple room before you go to landmark one .
+go through the orange room to the first floor .
+avoid the green room until going to the blue room .
+always avoid landmark two and navigate to the yellow room .
+go to the second floor but avoid the blue room .
+navigate from the first floor to the green room .
+avoid the red room until after going to the first floor .
+go to the yellow room through landmark three .
+go through the orange room to the red room .
+go through the orange room before going to the first floor .
+avoid the blue room before you navigate to the second floor .
+do not go into the orange room until going to landmark two
+navigate to the red room through the orange room .
+go to the purple room , then go to the second floor .
+go to landmark one before navigating to the third floor .
+go to the second floor but avoid the yellow room .
+go to the blue room , then go to the first floor .
+go to the second floor , then navigate to the purple room .
+go to the blue room but do not enter the orange room first .
+always avoid landmark three and go to the red room .
+navigate to the purple room but never go to the red room .
+move to the orange room first then travel to landmark two .
+remain on the first floor and navigate to the red room .
+avoid the purple room until you go to the second floor .
+go to the first floor after going to the second floor .
+avoid landmark one and go to landmark three. if you 've reached landmark three then you can go to landmark one .
+navigate to the red room , always avoiding the green room .
+got to landmark two through the green room .
+do not navigate away from the first floor and go to the blue room .
+avoid the blue room on your way to landmark one .
+always avoid the red room and go to the purple room .
+go to the first floor . if you reached the first floor then you may go to the blue room .
+move to the red room avoiding landmark one. if you got to the red room then you can continue to landmark one .
+go from onest floor to landmark two .
+go to the green room , then go to the yellow room .
+always avoid landmark three and navigate to landmark two .
+stay on the second floor to get to landmark three .
+move to the yellow room then continue to the orange room .
+move to the purple room and then the yellow room .
+go to or through the blue room . always avoid going to the blue room through landmark three
+go to the second floor before you navigate to landmark one .
+go directly to landmark three and do not leave the green room .
+go to the blue room without ever leaving the first floor .
+always navigate to green room and then proceed to second floor .
+go to the orange room , avoiding landmark three .
+go to the second floor by first going through the red room .
+move to landmark two and then proceed to the purple room .
+go to the second floor then go to the green room
+avoid going through landmark one until you go through the yellow room .
+avoid the yellow room until reaching landmark one .
+go to or through the first floor always avoid going through the orange room
+avoid the blue room and go to landmark three
+remain on the first floor and move to the orange room .
+go to the blue room without going to the orange room . if you reached the blue room , now you can go to the orange room .
+avoid the orange room until going to landmark three .
+proceed to the yellow room without going to second floor .
+go to the green room but do not enter the yellow room first .
+go from second floor to red room .
+go to landmark one , avoid the purple room until you have been to the landmark .
+go to the second floor avoiding the blue room . if you get to second floor you can then proceed to the blue room
+go to the yellow room and then navigate to the green room .
+go to the first floor always avoiding the green room .
+go to the yellow room , avoiding landmark one .
+move towards red room and then to third floor .
+go to anywhere on the third floor .
+go to landmark one always avoiding the red room .
+go to the blue room , then go to the purple room .
+go directly to the orange room without going to first floor .
+always avoid the yellow room and go to landmark two .
+go through the green room to the first floor .
+always avoid the blue room and navigate to the third floor .
+go to landmark two always avoiding the blue room .
+avoid the blue room and go to landmark one. if you reached the green room , you can now go to the blue room or stay on landmark one .
+go to the second floor but avoid landmark one .
+always go through the red room before going to landmark three .
+avoid landmark two and move into the red room .
+go to the green room by avoiding landmark three. if you reached the green room , then you can proceed to landmark three .
+stay on the first floor and navigate to landmark one .
+go to the first floor through landmark two .
+go to landmark two then go to the third floor .
+go directly to landmark two by only moving in the orange room .
+go to landmark two but do not first go through the blue room .
+move to landmark two without leaving the first floor .
+navigate to the second floor through the first floor .
+go through the red room before going to landmark two
+move to the blue room then continue to the orange room .
+go to or through the orange room always avoid going to the orange room through landmark one
+avoid landmark three until reaching the red room .
+go to the purple room without going through the yellow room .
+go through the purple room , then make your way to landmark three .
+go to the first floor through the red room .
+go to landmark three while avoiding going through any other objects
+go to landmark two before going to the green room
+go to the yellow room only through the onest floor
+go to the blue room without going to landmark three .
+go to the yellow room without going to the red room
+move towards red room and then to second floor .
+go to the purple room and avoid the blue room .
+stay away from the yellow room and go to landmark two .
+go to the first floor then go landmark two .
+go to the third floor and then head to landmark one .
+proceed to the purple room without going to first floor .
+travel through the green room then go to the yellow room .
+go to the yellow room before going to the red room .
+avoid the yellow room until reaching landmark three .
+without leaving the third floor go to the orange room .
+go to second floor without going into the orange room
+go to the second floor and then go to the orange room .
+go to landmark two from the second floor only .
+avoid the red room and go to landmark one. if you reached the green room , you can now go to the red room or stay on landmark one .
+go to landmark three avoiding the yellow room . then go to the yellow room or stay on landmark three .
+move to the third floor by going through the green room
+navigate to the red room after going to the first floor .
+go through the second floor to the green room .
+go to the purple room but do not enter the yellow room first .
+do not navigate away from the second floor and go to the purple room .
+while always avoiding the blue room , go to landmark two .
+always avoid the red room to navigate to landmark one .
+avoid the yellow room before you navigate to the first floor .
+avoid landmark three and go to landmark two .
+always avoid the purple room , go to landmark one .
+always avoid the blue room and go to the red room .
+go to landmark three without leaving the purple room .
+go to the blue room through the second floor .
+go through the yellow room before going to the third floor .
+always go from the third floor to the first floor .
+navigate to landmark two then continue to the purple room .
+avoid the green room until after navigating to the blue room .
+move to the red room then continue to the purple room .
+go to the second floor then move to the yellow room .
+navigate to landmark one .
+go from onest floor to landmark one .
+go to the second floor via the red room .
+go from the first floor to the yellow room .
+go from onest floor to landmark one .
+go to first floor without going into the yellow room
+go from the blue room to the orange room
+go to the yellow room while always avoiding landmark one
+go through the yellow room and navigate to the second floor .
+go from the second floor to landmark one .
+avoid the yellow room on your way to the purple room . once you get to the purple room you can to the yellow room .
+go to the purple room without going to the orange room . if you reached the purple room , now you can go to the orange room .
+navigate to the second floor , avoiding landmark one .
+remain on the second floor and navigate to the yellow room .
+remain on the first floor and move to the red room .
+move to landmark one without entering the green room . then you may stay at landmark one or go to the green room .
+go to landmark one after navigating to the second floor .
+go through the red room to landmark three .
+go to landmark three avoiding the red room . then go to the red room or stay on landmark three .
+move to the red room avoiding landmark three. if you got to the red room then you can continue to landmark three .
+go to the orange room through landmark one .
+go to the onest floor through landmark two
+visit the third floor and then proceed to the second floor .
+proceed to the purple room without going to second floor .
+always proceed to landmark one and then to the first floor .
+avoid the yellow room and go to landmark two
+go to the red room by avoiding landmark three and then stay in the red room or continue to landmark three
+avoid the purple room , navigate to the red room .
+head to the purple room , but make sure to go through the green room first .
+go to the purple room avoiding landmark three .
+go to red room , but do not go to blue room .
+travel to landmark three .
+go to landmark three by only stepping in the green room .
+go to purple room , but do not go to green room .
+go through landmark three and navigate to the green room .
+move to the orange room first then travel to landmark one .
+navigate to the blue room after going to the second floor .
+go to the green room before going to the yellow room .
+head to the green room , but make sure to go through the purple room first .
+go to landmark three and then go to the purple room .
+move to the orange room then continue to the purple room .
+avoid landmark two and go to the yellow room .
+navigate to the red room then continue to landmark three .
+avoid the purple room
+avoid the yellow room and travel to the green room .
+first go to to landmark three then go to the yellow room .
+first go to to landmark one then go to the yellow room .
+go to the red room while staying on the first floor .
+avoid the green room until going through landmark one .
+go through the first floor to the purple room .
+go to landmark one avoiding the first floor .
+go to the second floor but avoid the blue room .
+go to the yellow room while always avoiding the purple room
+navigate to the yellow room staying on the third floor .
+do n't leave the purple room and go to landmark one .
+navigate to the third floor through the green room .
+avoid landmark two until navigating to the purple room .
+go directly to landmark one by only moving in the red room .
+go to or through the purple room . always avoid going to the purple room through landmark one
+go to the second floor , then go to the green room
+go to landmark three but do not first go through the yellow room .
+avoid the purple room and travel to the red room .
+go to the red room without going through the yellow room .
+always go through the red room to get to the purple room .
+always avoid the purple room while navigating to landmark one .
+move to the first floor by going through the orange room
+avoid the green room until you go to the orange room .
+move to the orange room without leaving the second floor .
+always avoid the orange room , go to landmark three .
+go to the yellow room through the third floor
+go to the green room , avoiding landmark three .
+go through the blue room before going to the third floor .
+go to the third floor through landmark one .
+go to the onest floor through the purple room
+go through landmark two before going to the yellow room .
+avoid landmark two until navigating to the yellow room .
+go to the first floor after going to the third floor .
+from the third floor , navigate to the orange room .
+go to landmark one before navigating to the second floor .
+first go to the yellow room and then go to landmark one .
+go to landmark two .
+go through the green room before going to the red room .
+avoid the red room until going to the second floor .
+go to the second floor while always avoiding the blue room
+pass through the green room before going to the first floor .
+go to the second floor , then go to the yellow room
+move to the blue room then continue to the red room .
+go through the red room to the yellow room .
+go to the first floor without going to the red room .
+go to the purple room by first visiting landmark two .
+go to the second floor avoiding the green room . if you reached the first floor you can stay there , or head to the green room .
+move to the purple room without going to second floor .
+avoid the blue room until you go to the second floor .
+always avoid the blue room to navigate to landmark three .
+avoid the orange room until after you 've gone to the blue room .
+go to the purple room while always avoiding the yellow room
+go to first floor without going into the green room
+avoid landmark three until you pass through orange room .
+go to the purple room without going to another floor .
+go to the green room , then go to landmark one .
+go to landmark three but do not enter the red room first .
+go to landmark three while always avoiding the blue room .
+go to landmark three and then to landmark two
+go to the first floor without going through the blue room . if you reached the first floor then you can go to the blue room , or be done .
+navigate to the purple room through the blue room .
+go to the blue room and avoid landmark three .
+avoid landmark one and go to the second floor .
+head to the orange room but first go to the first floor .
+go through the green room before going to landmark one
+go to landmark one then go to the blue room .
+go to or through the purple room . always avoid going to the purple room through landmark two
+go to landmark one while always avoiding the purple room .
+go to the red room , then go to landmark three .
+go to the blue room without ever leaving the second floor .
+proceed to the purple room .
+avoid landmark three until you navigate to landmark two .
+go through landmark three to the second floor .
+go to landmark one avoiding the orange room . then go to the orange room or stay on landmark one .
+go to the green room before you go to landmark one .
+go through landmark one before going to the orange room .
+always avoid the green room to navigate to landmark two .
+go to landmark one by only navigating within the orange room .
+go to the red room without going to the green room
+avoid the purple room and travel to the green room .
+go to the green room while always avoiding the orange room
+navigate through landmark one and go to the blue room .
+go to landmark one while avoiding going through any other objects
+do directly to landmark one without leaving the orange room .
+move to the blue room and then the red room .
+move to the green room .
+move to landmark two and then proceed to the yellow room .
+always avoid landmark one and go to landmark two .
+proceed to the red room without going to third floor .
+do not go into the yellow room until going to landmark two
+go to the red room , then go to the purple room .
+navigate to the first floor and avoid landmark two .
+move to landmark two , but go through the yellow room first .
+go to the first floor . if you reached the first floor then you may go to the red room .
+go to the onest floor through the red room
+go to the second floor through landmark three .
+go to or through the yellow room always avoid going to the yellow room through the red room
+always go through the blue room and then to landmark three .
+go to first floor
+head to the yellow room and then head to the third floor .
+go to the purple room by avoiding landmark one. if you reached the purple room , then you can proceed to landmark one .
+pass through landmark two before going to the second floor .
+pass through the purple room on your way to the third floor .
+go to the first floor by first going to the second floor .
+go to the red room , then proceed to landmark three .
+go to the purple room and go down to the onest floor .
+go to the yellow room and if you have reached the yellow room you may proceed to the red room or stay in the yellow room .
+go to the green room by first visiting landmark one .
+stay in the yellow room to get to landmark one .
+avoid the green room and go to the first floor .
+go through landmark two to the orange room .
+go to the blue room while avoiding landmark one
+avoid the orange room on your way to the green room . once you get to the green room you can to the orange room .
+go to landmark one then go to the third floor .
+go to the blue room without going through the red room .
+navigate to the green room through the orange room .
+avoid the red room until you enter the green room .
+without stepping outside of the red room , go to landmark three .
+go to landmark two before going to the purple room
+always avoid the red room and navigate to the first floor .
+go to the third floor then move to the orange room .
+go to landmark three through landmark one .
+go to the green room , then proceed to landmark two .
+proceed to the green room but do n't leave the first floor .
+go to the orange room and then navigate to the purple room .
+avoid the purple room on your way to the blue room . once you get to the blue room you can to the purple room .
+go to the first floor through the second floor .
+go to the orange room through the red room .
+go to landmark two by only navigating within the purple room .
+go to the first floor while always avoiding the blue room .
+go to the third floor via the green room .
+always avoid the yellow room , go to the second floor .
+avoid the landmark two and go to the third floor .
+go to the orange room without going to landmark three .
+go to the second floor avoiding the purple room . if you reached the second floor you can stay there , or head to the purple room .
+navigate to the first floor before going to landmark one .
+robot , go to the green room .
+navigate to the orange room but never go to the purple room .
+always avoid going to landmark two through the orange room
+go to orange room , but do not go to purple room .
+navigate to the third floor via the orange room .

@@ -4,25 +4,25 @@ from transformers import Seq2SeqTrainingArguments
 # Should override any duplicate keys with base_args
 model_specific_args = {
     'facebook/bart-large': {
-        'per_device_train_batch_size': 64,
-        'per_device_eval_batch_size': 16,
+        'per_device_train_batch_size': 32,
+        'per_device_eval_batch_size': 32,
         'learning_rate': 0.00002629697216493378,
         'weight_decay': 0.4,
-        'gradient_accumulation_steps': 6,
+        'gradient_accumulation_steps': 1,
     },
     'facebook/bart-base': {
         'per_device_train_batch_size': 32,
         'per_device_eval_batch_size': 32,
         'learning_rate': 0.00007563606142800364,
         'weight_decay': 0.3,
-        'gradient_accumulation_steps': 2,
+        'gradient_accumulation_steps': 1,
     },
     't5-base': {
         'per_device_train_batch_size': 32,
         'per_device_eval_batch_size': 32,
         'learning_rate': 0.00007563606142800364,
         'weight_decay': 0.3,
-        'gradient_accumulation_steps': 2,
+        'gradient_accumulation_steps': 1,
     }
 }
 
@@ -34,7 +34,7 @@ def get_training_args(model_type, output_dir, epochs, report_to):
         'logging_strategy': "epoch",
         'num_train_epochs': epochs,
         'load_best_model_at_end': True,
-        'save_total_limit': 3,
+        'save_total_limit': 10,
         'metric_for_best_model': "eval_loss",
         'predict_with_generate': True,
         'generation_max_length': 128,
